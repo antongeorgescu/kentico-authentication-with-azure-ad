@@ -24,9 +24,9 @@ Client ID: "5d6c194a-708b-4fd1-8e61-60bbdd47943e"
 Tenant ID: "e8422127-880e-4288-928e-4ced14423628"
 Application Key: _~DO93T.Udoq2gNw_2_n4JxBrG-18q~o9V   
 
-Username: "jake@alviandalabs.onmicrosoft.com" 
+Username: "azor@alviandalabs.onmicrosoft.com" 
 Group: "DogsAndCats" 
-Password: "Finastra2020!"
+Password: "Dogs2020!"
 
 *** Kentico Admin: Settings ***********************************
 Authentication Redirect Page: "/AzureADAuthentication.axd"
