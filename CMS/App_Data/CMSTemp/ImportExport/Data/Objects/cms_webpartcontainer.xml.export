@@ -1,0 +1,224 @@
+﻿<cms_webpartcontainer version="12.0">
+  <NewDataSet>
+    <cms_webpartcontainer>
+      <ContainerID>1</ContainerID>
+      <ContainerDisplayName>Corporate site - Content box Header</ContainerDisplayName>
+      <ContainerName>CorporateSite.ContentBoxHeader</ContainerName>
+      <ContainerTextBefore>&lt;h2 class="containerTitle"&gt;{%ContainerTitle%}&lt;/h2&gt;&lt;a href="{%ContainerCustomContent%}" class="FeedLink"&gt;&lt;img src="~/App_Themes/CorporateSite/Images/ico_rss.png" alt="RSS Icon" /&gt;&lt;/a&gt;</ContainerTextBefore>
+      <ContainerTextAfter></ContainerTextAfter>
+      <ContainerGUID>bc8d5e85-bd90-4633-a86d-002b8f88d464</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.585053-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>2</ContainerID>
+      <ContainerDisplayName>Orange box</ContainerDisplayName>
+      <ContainerName>OrangeBox</ContainerName>
+      <ContainerTextBefore>&lt;div class="orangeBox"&gt;
+&lt;h3 class="title"&gt;{%ContainerTitle%}&lt;/h3&gt;
+&lt;div class="content"&gt;</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;
+&lt;/div&gt;</ContainerTextAfter>
+      <ContainerGUID>e6abcd4b-e99b-4ed9-b23c-041938c4f6be</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:43.04688-05:00</ContainerLastModified>
+      <ContainerCSS xml:space="preserve">
+</ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>3</ContainerID>
+      <ContainerDisplayName>Corporate site - Light gradient box</ContainerDisplayName>
+      <ContainerName>CorporateSite.LightGradientBoxCenter</ContainerName>
+      <ContainerTextBefore>&lt;h3 class="{%ContainerCssClass%} LightGradientBoxHeader"&gt;{%ContainerTitle%}&lt;/h3&gt;
+&lt;div class="LightGradientBox {%ContainerCssClass%}"&gt;
+</ContainerTextBefore>
+      <ContainerTextAfter>&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+</ContainerTextAfter>
+      <ContainerGUID>41950fc0-d00c-4507-9f9f-1ce9293c2aef</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.5987182-05:00</ContainerLastModified>
+      <ContainerCSS xml:space="preserve">
+</ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>4</ContainerID>
+      <ContainerDisplayName>Black box</ContainerDisplayName>
+      <ContainerName>BlackBox</ContainerName>
+      <ContainerTextBefore>&lt;div class="blackBox"&gt;
+  &lt;h2 class="title"&gt;{%ContainerTitle%}&lt;/h2&gt;
+  &lt;div class="content"&gt;
+    </ContainerTextBefore>
+      <ContainerTextAfter>
+  &lt;/div&gt;
+&lt;/div&gt;</ContainerTextAfter>
+      <ContainerGUID>8dd8abba-d7ea-473c-a194-436add312719</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.4445298-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>5</ContainerID>
+      <ContainerDisplayName>Corporate site - Light gradient box right</ContainerDisplayName>
+      <ContainerName>CorporateSite.LightGradientBoxRight</ContainerName>
+      <ContainerTextBefore>&lt;div class="gradientBox rightBox"&gt;
+&lt;h3 class="{%ContainerCSSClass%}"&gt;{%ContainerTitle%}&lt;/h3&gt;
+&lt;div class="content" {%ContainerCustomCintent%}&gt;
+</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;&lt;/div&gt;
+</ContainerTextAfter>
+      <ContainerGUID>aa09bfcb-bf9c-41af-bf10-60e40dae5044</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.62475-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>6</ContainerID>
+      <ContainerDisplayName>Corporate site - Content box</ContainerDisplayName>
+      <ContainerName>CorporateSite.ContentBox</ContainerName>
+      <ContainerTextBefore>&lt;div class="contentBox"&gt;
+&lt;div class="head"&gt;&lt;h3 class="{%ContainerCSSClass%}"&gt;{%ContainerTitle%}&lt;/h3&gt;&lt;div class="details"&gt;Details&lt;/div&gt;&lt;/div&gt;
+&lt;div class="content"&gt;
+</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;
+&lt;/div&gt;&lt;div class="clear"&gt;&lt;/div&gt;
+</ContainerTextAfter>
+      <ContainerGUID>a8f7b167-c500-4a6e-beeb-65dcbfa98406</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.5728542-05:00</ContainerLastModified>
+      <ContainerCSS xml:space="preserve">
+</ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>7</ContainerID>
+      <ContainerDisplayName>Corporate site - List box content</ContainerDisplayName>
+      <ContainerName>CorporateSiteListBoxContent</ContainerName>
+      <ContainerTextBefore>&lt;div class="contentBox"&gt;
+  &lt;div class="content"&gt;
+</ContainerTextBefore>
+      <ContainerTextAfter>  &lt;/div&gt;
+&lt;/div&gt;
+</ContainerTextAfter>
+      <ContainerGUID>181c4a68-2827-43c9-8e2a-685ce90b7cf8</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.6432022-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>8</ContainerID>
+      <ContainerDisplayName>Gray box with header</ContainerDisplayName>
+      <ContainerName>GrayBoxWithHeader</ContainerName>
+      <ContainerTextBefore>&lt;div class="grayBoxWH"&gt;&lt;h2&gt;{%ContainerTitle%}&lt;/h2&gt;
+&lt;div class="inner"&gt;</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;&lt;/div&gt;</ContainerTextAfter>
+      <ContainerGUID>91bf2937-b812-4fb8-8589-700e7d8a87e1</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.819847-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>9</ContainerID>
+      <ContainerDisplayName>Content padding</ContainerDisplayName>
+      <ContainerName>Padding.Content</ContainerName>
+      <ContainerTextBefore>&lt;div class="ContentPadding"&gt;</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;</ContainerTextAfter>
+      <ContainerGUID>2102cc78-54f5-4e85-9977-746d8b67c136</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:43.0580731-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>10</ContainerID>
+      <ContainerDisplayName>Corporate site - List box header without RSS</ContainerDisplayName>
+      <ContainerName>CorporateSiteListBoxHeaderWithoutRSS</ContainerName>
+      <ContainerTextBefore>&lt;h2 class="containerTitle {%ContainerCSSClass%}"&gt;{%ContainerTitle%}&lt;/h2&gt;
+&lt;div class="listBoxHead line"&gt;</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;</ContainerTextAfter>
+      <ContainerGUID>2e008333-8ade-47a2-a125-94fe3223ef69</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.6755115-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>11</ContainerID>
+      <ContainerDisplayName>Gray box</ContainerDisplayName>
+      <ContainerName>Box.Gray</ContainerName>
+      <ContainerTextBefore>&lt;div class="grayBox"&gt;</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;</ContainerTextAfter>
+      <ContainerGUID>d48d9b0d-12a4-4c3c-9c41-b5a8aefec6ee</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.4681995-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>12</ContainerID>
+      <ContainerDisplayName>Corporate site - Light gradient box left</ContainerDisplayName>
+      <ContainerName>CorporateSite.LightGradientBoxLeft</ContainerName>
+      <ContainerTextBefore>&lt;div class="gradientBox leftBox"&gt;
+&lt;h3 class="{%ContainerCSSClass%}"&gt;{%ContainerTitle%}&lt;/h3&gt;
+&lt;div class="content"&gt;
+</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;&lt;/div&gt;
+</ContainerTextAfter>
+      <ContainerGUID>9256f530-16f7-4979-854f-cd6aaccc6a46</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.6127179-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainer>
+      <ContainerID>13</ContainerID>
+      <ContainerDisplayName>Corporate site - List box header</ContainerDisplayName>
+      <ContainerName>CorporateSiteListBoxHeader</ContainerName>
+      <ContainerTextBefore>&lt;h2 class="containerTitle"&gt;{%ContainerTitle%}&lt;/h2&gt;&lt;a href="{%ContainerCustomContent%}" class="FeedLinkHeader"&gt;&lt;img src="~/App_Themes/CorporateSite/Images/ico_rss.png" alt="RSS Icon" /&gt;&lt;/a&gt;
+&lt;div class="listBoxHead"&gt;
+</ContainerTextBefore>
+      <ContainerTextAfter>&lt;/div&gt;
+</ContainerTextAfter>
+      <ContainerGUID>76d510e8-e92b-4b32-be8e-f9779386e159</ContainerGUID>
+      <ContainerLastModified>2017-03-03T07:19:42.6566662-05:00</ContainerLastModified>
+      <ContainerCSS></ContainerCSS>
+    </cms_webpartcontainer>
+    <cms_webpartcontainersite>
+      <ContainerID>1</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>2</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>3</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>4</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>5</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>6</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>7</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>8</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>9</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>10</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>11</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>12</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+    <cms_webpartcontainersite>
+      <ContainerID>13</ContainerID>
+      <SiteID>1</SiteID>
+    </cms_webpartcontainersite>
+  </NewDataSet>
+</cms_webpartcontainer>

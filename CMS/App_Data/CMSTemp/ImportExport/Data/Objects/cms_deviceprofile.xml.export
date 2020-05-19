@@ -1,0 +1,366 @@
+﻿<cms_deviceprofile version="12.0">
+  <NewDataSet>
+    <cms_deviceprofile>
+      <ProfileID>81</ProfileID>
+      <ProfileName>SmallDevice</ProfileName>
+      <ProfileDisplayName>Smartphone (320 x 480)</ProfileDisplayName>
+      <ProfileOrder>1</ProfileOrder>
+      <ProfileMacro>{%maxSideSize = 480;
+
+width = CurrentDevice.Data["ScreenPixelsWidth"];
+height = CurrentDevice.Data["SreenPixelsHeight"];
+
+if (!CurrentDevice.Data["IsMobile"] 
+    || ((width &gt; maxSideSize)||(height &gt; maxSideSize))){
+    return false;
+}
+
+return true;|(identity)GlobalAdministrator|(hash)1ac0a9e24901c6b8b3361205ce1eaeb8cd28a730aacb09f5b46a95e053ff68d9%}</ProfileMacro>
+      <ProfileUserAgents>iphone
+ipod
+blackberry
+iemobile
+googlebot-mobile
+</ProfileUserAgents>
+      <ProfileEnabled>true</ProfileEnabled>
+      <ProfilePreviewWidth>320</ProfilePreviewWidth>
+      <ProfilePreviewHeight>480</ProfilePreviewHeight>
+      <ProfileGUID>764e2796-dc5b-49a0-8ef1-167d296f0ba1</ProfileGUID>
+      <ProfileLastModified>2017-12-12T10:17:08.1825623-05:00</ProfileLastModified>
+    </cms_deviceprofile>
+    <cms_deviceprofile>
+      <ProfileID>82</ProfileID>
+      <ProfileName>MediumDevice</ProfileName>
+      <ProfileDisplayName>Tablet (1024 x 768)</ProfileDisplayName>
+      <ProfileOrder>2</ProfileOrder>
+      <ProfileMacro>{%maxSideSize = 1024;
+
+width = CurrentDevice.Data["ScreenPixelsWidth"];
+height = CurrentDevice.Data["SreenPixelsHeight"];
+
+if (!CurrentDevice.Data["IsMobile"] 
+    || ((width &gt; maxSideSize)||(height &gt; maxSideSize))){
+    return false;
+}
+
+return true;|(identity)GlobalAdministrator|(hash)4902fb48d42a2272ecda2036b5b16939ce7dd60b7c07af6c1430a892cc7e78ad%}</ProfileMacro>
+      <ProfileUserAgents>ipad
+playbook</ProfileUserAgents>
+      <ProfileEnabled>true</ProfileEnabled>
+      <ProfilePreviewWidth>1024</ProfilePreviewWidth>
+      <ProfilePreviewHeight>768</ProfilePreviewHeight>
+      <ProfileGUID>544837d0-5c27-4f5d-a19e-91894b6b1f17</ProfileGUID>
+      <ProfileLastModified>2017-12-12T10:17:08.175036-05:00</ProfileLastModified>
+    </cms_deviceprofile>
+    <cms_deviceprofile>
+      <ProfileID>83</ProfileID>
+      <ProfileName>LargeDevice</ProfileName>
+      <ProfileDisplayName>Laptop (1366 x 768)</ProfileDisplayName>
+      <ProfileOrder>3</ProfileOrder>
+      <ProfileMacro>{%maxSideSize = 1366;
+
+width = CurrentDevice.Data["ScreenPixelsWidth"];
+height = CurrentDevice.Data["SreenPixelsHeight"];
+
+if (!CurrentDevice.Data["IsMobile"]
+    || ((width &gt; maxSideSize)||(height &gt; maxSideSize))){
+    return false;
+}
+
+return true;|(identity)GlobalAdministrator|(hash)8b762e11e76e48feb25b933bfae3f5b5a61f0ac5d52549371beed18c15cda05b%}</ProfileMacro>
+      <ProfileEnabled>true</ProfileEnabled>
+      <ProfilePreviewWidth>1366</ProfilePreviewWidth>
+      <ProfilePreviewHeight>768</ProfilePreviewHeight>
+      <ProfileGUID>c8a95123-0685-4fa2-aa20-9fa00f4ec3ee</ProfileGUID>
+      <ProfileLastModified>2017-12-12T10:17:08.156653-05:00</ProfileLastModified>
+    </cms_deviceprofile>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>143</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>43</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>936133a4-deb6-43ab-86aa-10fc07c9444c</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.946532-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>148</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>16</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>45f65b0a-6495-4b23-aabf-20b7072c9576</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.0195819-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>145</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>13</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>8741cea9-d151-44be-b217-317abe3ce381</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.0638547-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>130</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>44</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>a3679edc-392e-44bf-9054-33e7698ef226</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.119571-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>117</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>19</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>524b3c2a-68d6-48bb-8d94-376e082e4aef</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2987158-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>129</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>19</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>7faa27e0-6ad8-4966-bb87-3bcff469a3c5</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1561635-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>144</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>45</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>1abe6878-5f9b-4029-b4c5-3e21be9ec4eb</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.9585634-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>126</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>42</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>edb0c4c1-0965-4b47-8c30-489e0383aa29</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.0821464-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>121</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>13</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>47f302c4-329d-4d4f-8645-53c5bede63c5</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.3531753-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>141</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>19</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>bdc7bd55-0cc2-48f8-9911-53ff29358c54</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.9727334-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>124</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>16</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>2e7a0d2a-bd49-4415-91db-5badc0d94416</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.3297857-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>136</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>16</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>d835a43b-68a0-4855-b39f-5fc3a1427a42</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1906283-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>138</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>42</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>360d2a2e-3045-44b6-b558-716915fb06f1</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.8708757-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>147</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>15</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>b0d9676d-2513-46e5-b82c-74e1de8c1543</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.0052949-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>146</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>14</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>be65ca1b-6aed-4b32-88ab-7b3caad563eb</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.9910951-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>142</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>44</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>99ddfd99-f753-40eb-8fd9-80ecc13ee90a</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.9320848-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>120</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>43</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>b5f011bc-b924-481f-8de7-89067d700676</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2759197-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>140</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>21</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>9c7139a9-d820-4b12-bc2b-8a6f5fa6dd10</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.918088-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>135</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>15</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>0ebf6f34-413b-4be3-9748-91282059f5ce</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1793635-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>139</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>20</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>d626d1bc-dd2b-4dcf-a20e-9b81de212f11</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:30.9050849-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>149</DeviceProfileLayoutID>
+      <DeviceProfileID>83</DeviceProfileID>
+      <SourceLayoutID>17</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>f14664a3-8ba8-4ddb-b31c-9d32f45a2f35</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.0348559-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>131</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>43</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>2f16acfb-201f-48e6-aeda-b28f5244b46d</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1331882-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>134</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>14</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>fac2d797-d73c-4768-8a23-b3aa13a74d65</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1681649-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>122</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>14</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>4c51d733-b711-47fc-8b95-b46a199b98a9</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.3087153-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>125</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>17</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>ab793e25-2599-4a3a-a0c8-b4876c9f3ae1</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.3414114-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>123</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>15</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>b2d7430f-509e-4512-b0d0-c743b1eeb55a</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.3193805-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>133</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>13</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>8510e359-215c-40bf-b360-c89bdbc1a188</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.219369-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>116</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>21</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>b95c7389-d166-4b7c-bd41-d0c4a51623b0</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2527516-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>132</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>45</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>2bade514-b7d2-4a3d-9f99-d271b0216cfe</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1447726-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>128</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>21</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>1d32c4d7-a499-4e96-a508-daa5fa527289</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.1074737-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>137</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>17</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>d9bab6c1-baa8-4cd8-a2f8-e161b59ad647</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2075958-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>114</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>42</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>5246f755-6a1c-4485-94ae-e6dc11c7839a</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2300606-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>127</DeviceProfileLayoutID>
+      <DeviceProfileID>82</DeviceProfileID>
+      <SourceLayoutID>20</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>c236c384-dc32-40b9-96bd-e8cb0957be5f</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.0947567-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>115</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>20</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>8be6f4f0-012f-429d-ab00-eab228a50dcb</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2415274-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>119</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>45</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>d4c03cb4-7aea-4b87-8a3f-f319dbb40818</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2873962-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+    <cms_deviceprofilelayout>
+      <DeviceProfileLayoutID>118</DeviceProfileLayoutID>
+      <DeviceProfileID>81</DeviceProfileID>
+      <SourceLayoutID>44</SourceLayoutID>
+      <TargetLayoutID>148</TargetLayoutID>
+      <DeviceProfileLayoutGUID>649c1615-90f4-4083-b042-fa737ecaec8c</DeviceProfileLayoutGUID>
+      <DeviceProfileLayoutLastModified>2017-03-03T07:19:31.2637509-05:00</DeviceProfileLayoutLastModified>
+    </cms_deviceprofilelayout>
+  </NewDataSet>
+</cms_deviceprofile>

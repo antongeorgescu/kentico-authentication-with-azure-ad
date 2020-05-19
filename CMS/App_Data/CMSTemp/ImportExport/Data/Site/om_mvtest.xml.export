@@ -1,0 +1,17 @@
+﻿<om_mvtest version="12.0">
+  <NewDataSet>
+    <om_mvtest>
+      <MVTestID>1</MVTestID>
+      <MVTestName>SampleMVTTest</MVTestName>
+      <MVTestDescription>Sample MVT test</MVTestDescription>
+      <MVTestPage>/Examples/On-line-marketing/Optimization/MVT-test</MVTestPage>
+      <MVTestSiteID>1</MVTestSiteID>
+      <MVTestMaxConversions>0</MVTestMaxConversions>
+      <MVTestTargetConversionType>TOTAL</MVTestTargetConversionType>
+      <MVTestGUID>24ba3591-ad2e-477b-a689-68e0aafceb72</MVTestGUID>
+      <MVTestLastModified>2017-03-03T07:34:25.6199932-05:00</MVTestLastModified>
+      <MVTestEnabled>false</MVTestEnabled>
+      <MVTestDisplayName>Sample MVT Test</MVTestDisplayName>
+    </om_mvtest>
+  </NewDataSet>
+</om_mvtest>

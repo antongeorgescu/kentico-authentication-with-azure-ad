@@ -1,0 +1,484 @@
+﻿<newsletter_emailtemplate version="12.0">
+  <NewDataSet>
+    <newsletter_emailtemplate>
+      <TemplateID>1</TemplateID>
+      <TemplateDisplayName>Subscription confirmation template</TemplateDisplayName>
+      <TemplateName>SubscriptionConfirmationTemplate</TemplateName>
+      <TemplateSiteID>1</TemplateSiteID>
+      <TemplateType>S</TemplateType>
+      <TemplateGUID>aabf3055-26d9-41e2-859e-175f8e04499b</TemplateGUID>
+      <TemplateLastModified>2017-12-12T10:21:22.25192-05:00</TemplateLastModified>
+      <TemplateCode>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Newsletter&lt;/title&gt;
+&lt;style&gt;
+h1,h2,h3,h4,h5
+{
+  color: #2a537e;
+  font-family: Arial;
+}
+
+p
+{
+  font-family: Arial;
+}
+
+h1
+{
+  font-size: 16px;
+  color: #2a537e;
+}
+
+h2
+{
+  font-size: 14px;
+}
+
+h3
+{
+  font-size: 12px;
+}
+
+a
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+img
+{
+  border: 0;
+  padding:0;
+  margin: 0;
+}
+
+body
+{
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#page
+{
+  margin: auto;
+  width: 700px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="page"&gt;
+	&lt;table border="0" cellpadding="0" cellspacing="0" style="width: 696px;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;img alt="Company Logo" src="~/App_Themes/CorporateSite/Images/newsletterLogo.png" /&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="padding: 20px 0px; text-align: justify;"&gt;
+					&lt;h1&gt;
+						You have been successfully subscribed.&lt;/h1&gt;
+					&lt;br /&gt;
+					Thank you for subscribing to the newsletter.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="border-top: 1px solid rgb(34, 34, 34); padding: 3px 0px;"&gt;
+					&lt;font color="#222222" size="1"&gt;Company, address, state&amp;nbsp; All rights reserved.&amp;nbsp; You can unsubscribe here: &lt;/font&gt;&lt;font color="#222222" size="1"&gt;&lt;a href="{% EmailFeed.UnsubscribeFromEmailFeedUrl |(identity)GlobalAdministrator|(hash)e48022d79d0a2748ee4ffe64ae65ad66a220875d87be27c9c57e571d103b0404%}"&gt;Unsubscribe&lt;/a&gt;&lt;/font&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</TemplateCode>
+      <TemplateInlineCSS>false</TemplateInlineCSS>
+    </newsletter_emailtemplate>
+    <newsletter_emailtemplate>
+      <TemplateID>2</TemplateID>
+      <TemplateDisplayName>Unsubscription confirmation template</TemplateDisplayName>
+      <TemplateName>UnsubscriptionConfirmationTemplate</TemplateName>
+      <TemplateSiteID>1</TemplateSiteID>
+      <TemplateType>U</TemplateType>
+      <TemplateGUID>642ce677-afd7-4102-972a-2e9a4ee3c11e</TemplateGUID>
+      <TemplateLastModified>2017-12-12T10:21:22.2642224-05:00</TemplateLastModified>
+      <TemplateCode>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Newsletter&lt;/title&gt;
+&lt;style&gt;
+h1,h2,h3,h4,h5
+{
+  color: #2a537e;
+  font-family: Arial;
+}
+
+p
+{
+  font-family: Arial;
+}
+
+h1
+{
+  font-size: 16px;
+  color: #2a537e;
+}
+
+h2
+{
+  font-size: 14px;
+}
+
+h3
+{
+  font-size: 12px;
+}
+
+a
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+img
+{
+  border: 0;
+  padding:0;
+  margin: 0;
+}
+
+body
+{
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#page
+{
+  margin: auto;
+  width: 700px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="page"&gt;
+	&lt;table border="0" cellpadding="0" cellspacing="0" style="width: 696px;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;img alt="Company Logo" src="~/App_Themes/CorporateSite/Images/newsletterLogo.png" /&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="padding: 20px 0px; text-align: justify;"&gt;
+					&lt;h1&gt;
+						You have been unsubscribed.&lt;/h1&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="padding: 3px 0px; border-top-color: rgb(34, 34, 34); border-top-width: 1px; border-top-style: solid;"&gt;
+					&lt;font color="#222222" size="1"&gt;Company, address, state&amp;nbsp; All rights reserved.&lt;/font&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</TemplateCode>
+      <TemplateInlineCSS>false</TemplateInlineCSS>
+    </newsletter_emailtemplate>
+    <newsletter_emailtemplate>
+      <TemplateID>3</TemplateID>
+      <TemplateDisplayName>Double opt-in activation template</TemplateDisplayName>
+      <TemplateName>OptInActivationTemplate</TemplateName>
+      <TemplateSiteID>1</TemplateSiteID>
+      <TemplateType>D</TemplateType>
+      <TemplateGUID>b266a26d-3db0-4c37-bf9c-9e1de2600141</TemplateGUID>
+      <TemplateLastModified>2017-12-12T10:21:22.2391635-05:00</TemplateLastModified>
+      <TemplateCode>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Newsletter&lt;/title&gt;
+&lt;style&gt;
+h1,h2,h3,h4,h5
+{
+  color: #2a537e;
+  font-family: Arial;
+}
+
+p
+{
+  font-family: Arial;
+}
+
+h1
+{
+  font-size: 16px;
+  color: #2a537e;
+}
+
+h2
+{
+  font-size: 14px;
+}
+
+h3
+{
+  font-size: 12px;
+}
+
+a
+{
+  color: #000000;
+  text-decoration: underline;
+}
+
+img
+{
+  border: 0;
+  padding:0;
+  margin: 0;
+}
+
+body
+{
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#page
+{
+  margin: auto;
+  width: 700px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="page"&gt;
+	&lt;table border="0" cellpadding="0" cellspacing="0" style="width: 696px;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;img alt="Company Logo" src="~/App_Themes/CorporateSite/Images/newsletterLogo.png" /&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="padding: 20px 0px; text-align: justify;"&gt;
+					&lt;h1&gt;
+						&amp;nbsp;You have been registered to a newsletter&lt;/h1&gt;
+					Thank you for registering for a newsletter. In order to receive the newsletter, you need to confirm your subscription here:&lt;br /&gt;
+					&lt;br /&gt;
+                    &lt;a href="{% EmailFeed.SubscriptionConfirmationUrl |(identity)GlobalAdministrator|(hash)a2b4897766696779de8827deaa6123126c83255e78b3ea7ba5d72082b46a2ec7%}"&gt;Activation link&lt;/a&gt;
+					
+              &lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="border-top: 1px solid rgb(34, 34, 34); padding: 3px 0px;"&gt;
+					&lt;font color="#222222" size="1"&gt;Company, address, state&amp;nbsp; All rights reserved.&amp;nbsp; You can unsubscribe here: &lt;/font&gt;&lt;font color="#222222" size="1"&gt;
+                    &lt;a href="{% EmailFeed.UnsubscribeFromEmailFeedUrl |(identity)GlobalAdministrator|(hash)e48022d79d0a2748ee4ffe64ae65ad66a220875d87be27c9c57e571d103b0404%}"&gt;Unsubscribe&lt;/a&gt;
+                  &lt;/font&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</TemplateCode>
+      <TemplateInlineCSS>false</TemplateInlineCSS>
+    </newsletter_emailtemplate>
+    <newsletter_emailtemplate>
+      <TemplateID>4</TemplateID>
+      <TemplateDisplayName>Corporate Newsletter template</TemplateDisplayName>
+      <TemplateName>NewsletterIssueTemplate</TemplateName>
+      <TemplateSiteID>1</TemplateSiteID>
+      <TemplateType>I</TemplateType>
+      <TemplateGUID>8d470fd8-4796-481e-8d88-ef6a089b5a62</TemplateGUID>
+      <TemplateLastModified>2017-12-12T10:21:22.2174147-05:00</TemplateLastModified>
+      <TemplateDescription>Sample email template demonstrating the key concepts of the Email builder.</TemplateDescription>
+      <TemplateCode>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Corporate Newsletter&lt;/title&gt;
+&lt;!-- 
+
+    Hello!
+    
+    We are including this template as part of the Corporate demo site to help you start with email marketing in Kentico.
+    Together with included sample widgets, this template demonstrates key concepts of our Email builder. 
+    
+    Please note that this template is meant to be used for demo purposes only.
+
+    Your Kentico Dev Team
+
+ --&gt;
+
+&lt;!--
+
+    An email present from your friends at Litmus (@litmusapp)
+
+    Email is surprisingly hard. While this has been thoroughly tested, your mileage may vary.
+    It's highly recommended that you test using a service like Litmus (http://litmus.com) and your own devices.
+
+    Enjoy!
+
+--&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+&lt;style type="text/css"&gt;
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+    table{border-collapse: collapse !important;}
+    body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        .wrapper {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        .logo img {
+          margin: 0 auto !important;
+        }
+
+        .img-max {
+          max-width: 100% !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        .responsive-table {
+          width: 100% !important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        .padding {
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        .padding-meta {
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        .no-padding {
+          padding: 0 !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        .mobile-button-container {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .mobile-button {
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+            display: block !important;
+        }
+
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body style="margin: 0 !important; padding: 0 !important;"&gt;
+
+&lt;!-- HIDDEN PREHEADER TEXT --&gt;
+&lt;div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;"&gt;
+  {% Email.Preheader |(identity)GlobalAdministrator|(hash)83ea7782070fb812c721058c106218bdc23608d27fbfa0f6befd6ee460a4e2fd%}
+&lt;/div&gt;
+
+&lt;!-- HEADER --&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#5580b5" align="center"&gt;
+            &lt;!--[if (gte mso 9)|(IE)]&gt;
+            &lt;table align="center" border="0" cellspacing="0" cellpadding="0" width="500"&gt;
+            &lt;tr&gt;
+            &lt;td align="center" valign="top" width="500"&gt;
+            &lt;![endif]--&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px;" class="wrapper"&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" valign="top" style="padding: 15px 0;" class="logo"&gt;
+                        &lt;img alt="Logo" src="~/getfile/461dfa2a-b103-4e67-9a9d-a3540664eef7/CorporateSiteLogo.aspx" width="183" height="47" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" border="0"&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!--[if (gte mso 9)|(IE)]&gt;
+            &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;![endif]--&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#ffffff" align="center" style="padding: 35px 15px 35px 15px;"&gt;
+            &lt;!--[if (gte mso 9)|(IE)]&gt;
+            &lt;table align="center" border="0" cellspacing="0" cellpadding="0" width="500"&gt;
+            &lt;tr&gt;
+            &lt;td align="center" valign="top" width="500"&gt;
+            &lt;![endif]--&gt;
+            &lt;table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px;" class="responsive-table"&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" height="100%" valign="top" width="100%" style="max-width:500px;"&gt;
+                        $$zone1$$
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!--[if (gte mso 9)|(IE)]&gt;
+            &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;![endif]--&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td bgcolor="#ffffff" align="center" style="padding: 20px 0px;"&gt;
+            &lt;!--[if (gte mso 9)|(IE)]&gt;
+            &lt;table align="center" border="0" cellspacing="0" cellpadding="0" width="500"&gt;
+            &lt;tr&gt;
+            &lt;td align="center" valign="top" width="500"&gt;
+            &lt;![endif]--&gt;
+            &lt;!-- UNSUBSCRIBE COPY --&gt;
+            &lt;table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="max-width: 500px;" class="responsive-table"&gt;
+                &lt;tr&gt;
+                    &lt;td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;"&gt;
+                        We hope you found this message to be useful.
+                        However, if you&amp;#39;d rather not receive these emails in the future,
+                        please &lt;a href="{% EmailFeed.UnsubscribeFromEmailFeedUrl |(identity)GlobalAdministrator|(hash)e48022d79d0a2748ee4ffe64ae65ad66a220875d87be27c9c57e571d103b0404%}" target="_blank" style="color: #000000;"&gt;unsubscribe&lt;/a&gt; from this newsletter.
+                        You can also unsubscribe from &lt;a href="{% EmailFeed.UnsubscribeFromAllEmailFeedsUrl |(identity)GlobalAdministrator|(hash)d0d4aa18f3829b527dcbc6a89e7cab912cfc85e230ab9e333819fa9aa5ebc10e%}" target="_blank" style="color: #000000;"&gt;all marketing emails&lt;/a&gt;.
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;!--[if (gte mso 9)|(IE)]&gt;
+            &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/table&gt;
+            &lt;![endif]--&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</TemplateCode>
+      <TemplateInlineCSS>false</TemplateInlineCSS>
+    </newsletter_emailtemplate>
+  </NewDataSet>
+</newsletter_emailtemplate>

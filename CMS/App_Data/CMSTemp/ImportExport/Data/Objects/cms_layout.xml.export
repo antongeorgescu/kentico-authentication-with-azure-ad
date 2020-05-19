@@ -1,0 +1,435 @@
+﻿<cms_layout version="12.0">
+  <NewDataSet>
+    <cms_layout>
+      <LayoutID>42</LayoutID>
+      <LayoutCodeName>CMS.FullPageCSS</LayoutCodeName>
+      <LayoutDisplayName>Full page</LayoutDisplayName>
+      <LayoutDescription>Full page layout with one full width column using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>45f19f64-e9c9-4c0d-857a-5a662b8b59d1</LayoutVersionGUID>
+      <LayoutGUID>15ab078b-bdd6-4913-9255-0c6c59be7a65</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4412509-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>3</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-text
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>17</LayoutID>
+      <LayoutCodeName>CMS.TwoColumns80_20CSS</LayoutCodeName>
+      <LayoutDisplayName>Two columns - 80/20 </LayoutDisplayName>
+      <LayoutDescription>Two columns in ratio 80%/20% using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 80%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 20%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>7ac15597-aaf6-4032-83f5-b0bf7ecc918d</LayoutVersionGUID>
+      <LayoutGUID>80d21b69-dfd0-4648-9571-36f2dbf1500e</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5517633-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>4</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-80-20
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>20</LayoutID>
+      <LayoutCodeName>CMS.Grid2CSS</LayoutCodeName>
+      <LayoutDisplayName>Grid 2x2 cells</LayoutDisplayName>
+      <LayoutDescription>Grid 2x2 of web part zones using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 50%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 50%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;div style="width: 50%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 50%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both;"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneF" runat="server" /&gt;    
+&lt;/div&gt;
+</LayoutCode>
+      <LayoutVersionGUID>ad1603b0-e021-45f9-8d2c-d21e88bf8947</LayoutVersionGUID>
+      <LayoutGUID>3400c02b-4681-47a4-af16-43c67a9b4013</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4512188-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>6</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-grid-2-2
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>43</LayoutID>
+      <LayoutCodeName>CMS.ThreeColumns25_50_25CSS</LayoutCodeName>
+      <LayoutDisplayName>Three columns - 25/50/25 </LayoutDisplayName>
+      <LayoutDescription>Three columns in ratio 25%/50%/25% using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div style="width: 25%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 50%; float: left;"&gt;
+    &lt;div class="Content"&gt;&lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;&lt;/div&gt;    
+  &lt;/div&gt;
+  &lt;div style="width: 25%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>8fe87264-77d9-4823-aae2-2029fb77d38a</LayoutVersionGUID>
+      <LayoutGUID>8fcf2126-e2c2-40cf-b0a7-6694526cc076</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4933552-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>5</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-25-50-25
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>13</LayoutID>
+      <LayoutCodeName>CMS.TwoColumnsCSS</LayoutCodeName>
+      <LayoutDisplayName>Two columns </LayoutDisplayName>
+      <LayoutDescription>Two column layout using CSS</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 50%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 50%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>7e252f44-87cd-4666-a764-6ce6c00c32c9</LayoutVersionGUID>
+      <LayoutGUID>550a79a7-95ba-453b-801f-683892a2b365</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5626613-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>4</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-2
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>21</LayoutID>
+      <LayoutCodeName>CMS.Grid3CSS</LayoutCodeName>
+      <LayoutDisplayName>Grid 3x2 cells</LayoutDisplayName>
+      <LayoutDescription>Grid 3x2 of web part zones using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 33%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 34%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 33%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;div style="width: 33%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 34%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneF" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 33%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneG" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;  
+  &lt;cms:CMSWebPartZone ZoneID="zoneH" runat="server" /&gt;      
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>9e4a13da-6d5b-4ef0-bc71-9d233903e1f0</LayoutVersionGUID>
+      <LayoutGUID>775aae79-222c-4e6d-838f-93a0262bdb78</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4593639-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>8</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-grid-3-2
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>148</LayoutID>
+      <LayoutCodeName>CMS.EightRows</LayoutCodeName>
+      <LayoutDisplayName>Rows</LayoutDisplayName>
+      <LayoutDescription>Eight rows with web part zones.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneF" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneG" runat="server" /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneH" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>9d77b9bc-e317-4cb8-ac3e-306f4b446e78</LayoutVersionGUID>
+      <LayoutGUID>aae1e059-e3a8-48b2-af84-ada3c63bb144</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4205025-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutZoneCount>8</LayoutZoneCount>
+      <LayoutIsConvertible>false</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-rows-4
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>16</LayoutID>
+      <LayoutCodeName>CMS.TwoColumns70_30CSS</LayoutCodeName>
+      <LayoutDisplayName>Two columns - 70/30 </LayoutDisplayName>
+      <LayoutDescription>Two columns in ratio 70%/30% using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 70%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 30%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>3531c164-b5f3-49f8-b415-b6b989214f10</LayoutVersionGUID>
+      <LayoutGUID>68916806-2b60-43ae-ac8a-b0b741cf9e6e</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5426128-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>4</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-70-30
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>14</LayoutID>
+      <LayoutCodeName>CMS.TwoColumns20_80CSS</LayoutCodeName>
+      <LayoutDisplayName>Two columns - 20/80 </LayoutDisplayName>
+      <LayoutDescription>Two columns in ratio 20%/80% using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div class="twoColumnsLeft innerContent"&gt;
+  &lt;div style="width: 20%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 80%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>148313e2-3326-4b4f-8298-e6f27436bab9</LayoutVersionGUID>
+      <LayoutGUID>7ab5c1f8-3ec3-452f-85cc-c33dc2b712eb</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5205943-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>4</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-20-80
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>1</LayoutID>
+      <LayoutCodeName>CMS.Simple</LayoutCodeName>
+      <LayoutDisplayName>Simple</LayoutDisplayName>
+      <LayoutDescription>Simple layout with one web part zone.</LayoutDescription>
+      <LayoutCode>&lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt; </LayoutCode>
+      <LayoutVersionGUID>f840250c-f7d3-4b87-b01b-e839b365fab5</LayoutVersionGUID>
+      <LayoutGUID>701bb385-0d11-4b17-9820-df7cafc3a0a2</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4710877-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>1</LayoutZoneCount>
+      <LayoutIsConvertible>false</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-text</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>45</LayoutID>
+      <LayoutCodeName>CMS.ThreeColumns33_33_33CSS</LayoutCodeName>
+      <LayoutDisplayName>Three columns - 33/33/33 </LayoutDisplayName>
+      <LayoutDescription>Three columns with web part zones using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div style="width: 33%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 34%; float: left;"&gt;
+    &lt;div class="Content"&gt;&lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;&lt;/div&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 33%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>eb1c06b2-4936-4b9d-b6b3-eeba17c2985c</LayoutVersionGUID>
+      <LayoutGUID>686194bc-7f23-4a48-bfdd-e1161cfd64f1</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5019408-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>5</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-3
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>15</LayoutID>
+      <LayoutCodeName>CMS.TwoColumns30_70CSS</LayoutCodeName>
+      <LayoutDisplayName>Two columns - 30/70 </LayoutDisplayName>
+      <LayoutDescription>Two columns in ratio 30%/70% using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 30%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 70%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>abc7ec67-9a19-4066-8b08-534d28ad4f76</LayoutVersionGUID>
+      <LayoutGUID>1e6331ed-3091-4bf2-adc0-e27e8f5489be</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5288424-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>4</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-30-70
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>44</LayoutID>
+      <LayoutCodeName>CMS.ThreeColumns20_60_20CSS</LayoutCodeName>
+      <LayoutDisplayName>Three columns - 20/60/20 </LayoutDisplayName>
+      <LayoutDescription>Three columns in ratio 20%/60%/20% using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;div style="width: 20%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 60%; float: left;"&gt;
+    &lt;div class="Content"&gt;&lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt;&lt;/div&gt;  
+  &lt;/div&gt;
+  &lt;div style="width: 20%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>6a2025f6-6806-48b2-8e33-029884740848</LayoutVersionGUID>
+      <LayoutGUID>112dddcd-8f96-48bb-9e50-eceada4fe3a5</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.4820965-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>5</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-20-60-20
+</LayoutIconClass>
+    </cms_layout>
+    <cms_layout>
+      <LayoutID>19</LayoutID>
+      <LayoutCodeName>CMS.ThreeColumnsCSS</LayoutCodeName>
+      <LayoutDisplayName>Three columns </LayoutDisplayName>
+      <LayoutDescription>Three columns with web part zones using CSS.</LayoutDescription>
+      <LayoutCode>&lt;div&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneA" runat="server" /&gt;      
+&lt;/div&gt;
+&lt;div style="width: 100%;"&gt;
+  &lt;div style="width: 33%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneB" runat="server" /&gt;      
+  &lt;/div&gt;
+  &lt;div style="width: 34%; float: left;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneC" runat="server" /&gt; 
+  &lt;/div&gt;
+  &lt;div style="width: 33%; float: right;"&gt;
+    &lt;cms:CMSWebPartZone ZoneID="zoneD" runat="server" /&gt;      
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear: both"&gt;
+  &lt;cms:CMSWebPartZone ZoneID="zoneE" runat="server" /&gt;
+&lt;/div&gt;</LayoutCode>
+      <LayoutVersionGUID>79a43523-8427-42df-94d6-f4be2523000b</LayoutVersionGUID>
+      <LayoutGUID>a96ae4bf-f02b-4b2f-ac84-f49cf2c83a1e</LayoutGUID>
+      <LayoutLastModified>2017-03-03T07:18:54.5119389-05:00</LayoutLastModified>
+      <LayoutType>ascx</LayoutType>
+      <LayoutCSS></LayoutCSS>
+      <LayoutZoneCount>5</LayoutZoneCount>
+      <LayoutIsConvertible>true</LayoutIsConvertible>
+      <LayoutIconClass>icon-l-cols-3
+</LayoutIconClass>
+    </cms_layout>
+  </NewDataSet>
+</cms_layout>

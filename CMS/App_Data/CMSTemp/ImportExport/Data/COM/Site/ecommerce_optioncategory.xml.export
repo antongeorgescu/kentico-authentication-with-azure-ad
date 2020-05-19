@@ -1,0 +1,40 @@
+﻿<ecommerce_optioncategory version="12.0">
+  <NewDataSet>
+    <com_optioncategory>
+      <CategoryID>1</CategoryID>
+      <CategoryDisplayName>Inscription on the cover</CategoryDisplayName>
+      <CategoryName>CoverInscription</CategoryName>
+      <CategorySelectionType>TEXTBOX</CategorySelectionType>
+      <CategoryDefaultOptions></CategoryDefaultOptions>
+      <CategoryDescription></CategoryDescription>
+      <CategoryDefaultRecord></CategoryDefaultRecord>
+      <CategoryEnabled>true</CategoryEnabled>
+      <CategoryGUID>d5e7b444-dea2-4114-b3b8-f874c08eee8e</CategoryGUID>
+      <CategoryLastModified>2017-12-12T10:21:19.8142186-05:00</CategoryLastModified>
+      <CategoryDisplayPrice>true</CategoryDisplayPrice>
+      <CategorySiteID>1</CategorySiteID>
+      <CategoryTextMaxLength>20</CategoryTextMaxLength>
+      <CategoryType>TEXT</CategoryType>
+      <CategoryLiveSiteDisplayName></CategoryLiveSiteDisplayName>
+    </com_optioncategory>
+    <com_sku>
+      <SKUID>1</SKUID>
+      <SKUNumber></SKUNumber>
+      <SKUName>Inscription on the cover</SKUName>
+      <SKUDescription></SKUDescription>
+      <SKUPrice>10.000000000</SKUPrice>
+      <SKUEnabled>true</SKUEnabled>
+      <SKUGUID>30b67f52-804b-4bfe-9266-f7d092a0d61c</SKUGUID>
+      <SKUAvailableItems>-7</SKUAvailableItems>
+      <SKUSellOnlyAvailable>false</SKUSellOnlyAvailable>
+      <SKUCustomData></SKUCustomData>
+      <SKUOptionCategoryID>1</SKUOptionCategoryID>
+      <SKULastModified>2017-12-12T10:21:19.8081699-05:00</SKULastModified>
+      <SKUCreated>2017-01-10T16:03:07.5268991-05:00</SKUCreated>
+      <SKUSiteID>1</SKUSiteID>
+      <SKUNeedsShipping>false</SKUNeedsShipping>
+      <SKUProductType>TEXT</SKUProductType>
+      <SKUTrackInventory>ByProduct</SKUTrackInventory>
+    </com_sku>
+  </NewDataSet>
+</ecommerce_optioncategory>

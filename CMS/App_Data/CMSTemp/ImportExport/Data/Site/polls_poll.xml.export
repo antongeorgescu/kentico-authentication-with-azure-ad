@@ -1,0 +1,58 @@
+﻿<polls_poll version="12.0">
+  <NewDataSet>
+    <polls_poll>
+      <PollID>1</PollID>
+      <PollCodeName>NewWebsitePoll</PollCodeName>
+      <PollDisplayName>New Website Poll</PollDisplayName>
+      <PollTitle>New Website Poll</PollTitle>
+      <PollAllowMultipleAnswers>false</PollAllowMultipleAnswers>
+      <PollQuestion>How do you like our new website?</PollQuestion>
+      <PollAccess>0</PollAccess>
+      <PollResponseMessage>Thank you for your opinion.</PollResponseMessage>
+      <PollGUID>1208417a-f4ca-4ecc-9fa2-5515b758e956</PollGUID>
+      <PollLastModified>2017-03-03T07:34:26.2625958-05:00</PollLastModified>
+      <PollSiteID>1</PollSiteID>
+      <PollLogActivity>true</PollLogActivity>
+    </polls_poll>
+    <polls_pollanswer>
+      <AnswerID>1</AnswerID>
+      <AnswerText>Well done</AnswerText>
+      <AnswerOrder>2</AnswerOrder>
+      <AnswerCount>18</AnswerCount>
+      <AnswerEnabled>true</AnswerEnabled>
+      <AnswerPollID>1</AnswerPollID>
+      <AnswerGUID>e74fec10-cdd9-40a3-a7a1-0f579e19a2c9</AnswerGUID>
+      <AnswerLastModified>2017-03-03T07:34:26.2593805-05:00</AnswerLastModified>
+    </polls_pollanswer>
+    <polls_pollanswer>
+      <AnswerID>2</AnswerID>
+      <AnswerText>Poor</AnswerText>
+      <AnswerOrder>4</AnswerOrder>
+      <AnswerCount>5</AnswerCount>
+      <AnswerEnabled>true</AnswerEnabled>
+      <AnswerPollID>1</AnswerPollID>
+      <AnswerGUID>869e77fd-492d-454a-9f75-5ebb51bea74c</AnswerGUID>
+      <AnswerLastModified>2017-03-03T07:34:26.2398426-05:00</AnswerLastModified>
+    </polls_pollanswer>
+    <polls_pollanswer>
+      <AnswerID>3</AnswerID>
+      <AnswerText>Excellent</AnswerText>
+      <AnswerOrder>1</AnswerOrder>
+      <AnswerCount>27</AnswerCount>
+      <AnswerEnabled>true</AnswerEnabled>
+      <AnswerPollID>1</AnswerPollID>
+      <AnswerGUID>032017e8-015e-48b7-9936-703cfc7e953f</AnswerGUID>
+      <AnswerLastModified>2017-03-03T07:34:26.1955031-05:00</AnswerLastModified>
+    </polls_pollanswer>
+    <polls_pollanswer>
+      <AnswerID>4</AnswerID>
+      <AnswerText>Nothing special</AnswerText>
+      <AnswerOrder>3</AnswerOrder>
+      <AnswerCount>5</AnswerCount>
+      <AnswerEnabled>true</AnswerEnabled>
+      <AnswerPollID>1</AnswerPollID>
+      <AnswerGUID>71eb8115-21cf-48fe-a952-e31fdcce2972</AnswerGUID>
+      <AnswerLastModified>2017-03-03T07:34:26.2186872-05:00</AnswerLastModified>
+    </polls_pollanswer>
+  </NewDataSet>
+</polls_poll>

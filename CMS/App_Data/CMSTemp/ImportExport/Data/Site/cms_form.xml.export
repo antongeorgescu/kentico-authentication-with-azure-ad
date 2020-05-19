@@ -1,0 +1,139 @@
+﻿<cms_form version="12.0">
+  <NewDataSet>
+    <cms_form>
+      <FormID>1</FormID>
+      <FormDisplayName>Contact Us</FormDisplayName>
+      <FormName>ContactUs</FormName>
+      <FormSendFromEmail></FormSendFromEmail>
+      <FormEmailTemplate></FormEmailTemplate>
+      <FormEmailAttachUploadedDocs>true</FormEmailAttachUploadedDocs>
+      <FormClassID>5517</FormClassID>
+      <FormItems>0</FormItems>
+      <FormReportFields>ContactUsID;FormInserted;FormUpdated;FirstName;LastName;Email;PhoneNumber;Message</FormReportFields>
+      <FormDisplayText>Thank you for your message. We will contact you shortly.</FormDisplayText>
+      <FormClearAfterSave>false</FormClearAfterSave>
+      <FormSubmitButtonText>Send message</FormSubmitButtonText>
+      <FormSiteID>1</FormSiteID>
+      <FormConfirmationEmailField></FormConfirmationEmailField>
+      <FormConfirmationTemplate></FormConfirmationTemplate>
+      <FormConfirmationSendFromEmail></FormConfirmationSendFromEmail>
+      <FormConfirmationEmailSubject></FormConfirmationEmailSubject>
+      <FormAccess>0</FormAccess>
+      <FormGUID>ab8a585c-d337-4343-9cda-624c99d506ae</FormGUID>
+      <FormLastModified>2018-11-27T10:50:24.2636839-05:00</FormLastModified>
+      <FormLogActivity>true</FormLogActivity>
+      <FormDevelopmentModel>0</FormDevelopmentModel>
+    </cms_form>
+    <cms_class>
+      <ClassID>5517</ClassID>
+      <ClassDisplayName>Contact Us</ClassDisplayName>
+      <ClassName>BizForm.ContactUs</ClassName>
+      <ClassUsesVersioning>false</ClassUsesVersioning>
+      <ClassIsDocumentType>false</ClassIsDocumentType>
+      <ClassIsCoupledClass>true</ClassIsCoupledClass>
+      <ClassXmlSchema>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="Form_ContactUs"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="ContactUsID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" /&gt;
+              &lt;xs:element name="FormInserted" type="xs:dateTime" /&gt;
+              &lt;xs:element name="FormUpdated" type="xs:dateTime" /&gt;
+              &lt;xs:element name="FirstName"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="200" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="LastName"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="200" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Email"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="100" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="PhoneNumber"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="14" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="Message"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="2147483647" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+    &lt;xs:unique name="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//Form_ContactUs" /&gt;
+      &lt;xs:field xpath="ContactUsID" /&gt;
+    &lt;/xs:unique&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</ClassXmlSchema>
+      <ClassFormDefinition>&lt;form version="2"&gt;&lt;field column="ContactUsID" columntype="integer" guid="ba75b40f-edf6-434f-aa19-15ea8413e407" isPK="true" isunique="true" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;ContactUsID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FormInserted" columntype="datetime" guid="b322a169-1b41-4dd4-92bd-7da439b4f9fe" publicfield="false" system="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Form inserted&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FormUpdated" columntype="datetime" guid="5bd47da2-44b3-4fc1-ac20-9815705fb542" publicfield="false" system="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Form updated&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FirstName" columnsize="200" columntype="text" guid="a5f30b4c-5077-4f4f-93a1-a437dc13084f" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;First name&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="LastName" columnsize="200" columntype="text" guid="d46bc2f9-29eb-4833-a2dc-ce2670265d83" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Last name&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Email" columnsize="100" columntype="text" guid="877dc000-111b-4379-938c-6386557719aa" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;E-mail&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;emailinput&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="PhoneNumber" columnsize="14" columntype="text" guid="f19dc3a9-b902-41af-9ee0-e46cc0886e98" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Phone number&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;usphone&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Message" columntype="longtext" guid="4244a1f5-63c9-4871-8a7a-bd943ba69425" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Your message&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;textareacontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</ClassFormDefinition>
+      <ClassEditingPageUrl></ClassEditingPageUrl>
+      <ClassListPageUrl></ClassListPageUrl>
+      <ClassNodeNameSource></ClassNodeNameSource>
+      <ClassTableName>Form_ContactUs</ClassTableName>
+      <ClassViewPageUrl></ClassViewPageUrl>
+      <ClassPreviewPageUrl></ClassPreviewPageUrl>
+      <ClassNewPageUrl></ClassNewPageUrl>
+      <ClassShowAsSystemTable>false</ClassShowAsSystemTable>
+      <ClassUsePublishFromTo>false</ClassUsePublishFromTo>
+      <ClassShowTemplateSelection>false</ClassShowTemplateSelection>
+      <ClassIsMenuItemType>false</ClassIsMenuItemType>
+      <ClassNodeAliasSource></ClassNodeAliasSource>
+      <ClassLastModified>2017-03-03T07:21:12.4128518-05:00</ClassLastModified>
+      <ClassGUID>22c20eef-814b-4e7c-a41d-532854085559</ClassGUID>
+      <ClassCreateSKU>false</ClassCreateSKU>
+      <ClassIsProduct>false</ClassIsProduct>
+      <ClassIsCustomTable>false</ClassIsCustomTable>
+      <ClassShowColumns></ClassShowColumns>
+      <ClassSearchTitleColumn>ContactUsID</ClassSearchTitleColumn>
+      <ClassSearchContentColumn>Message</ClassSearchContentColumn>
+      <ClassSearchImageColumn></ClassSearchImageColumn>
+      <ClassSearchCreationDateColumn>0</ClassSearchCreationDateColumn>
+      <ClassSearchSettings>&lt;search&gt;&lt;item content="False" id="38493bf8-b672-4da6-a2ed-55570203ca0b" name="FormInserted" searchable="False" tokenized="False" /&gt;&lt;item content="True" id="3c1f7eb0-0f5e-43a9-b771-ab6cb38583b0" name="Email" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="3cc735e8-eb94-4b00-96ea-d1ddc19cf47f" name="ContactUsID" searchable="False" tokenized="False" /&gt;&lt;item content="True" id="3e5fd291-b8c8-4d6f-bd69-f9fb57feacf6" name="FirstName" searchable="True" tokenized="False" /&gt;&lt;item content="True" id="7d0991c9-4523-4786-83b7-b0cbbea9b043" name="LastName" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="af230f9c-2b97-436d-a74f-e9e3b12c89dc" name="FormUpdated" searchable="False" tokenized="False" /&gt;&lt;item content="True" id="b5130b98-d9a0-4e66-9971-2e8f7a8f290c" name="Message" searchable="True" tokenized="True" /&gt;&lt;item content="True" id="ed4e7d69-b217-4caa-96a7-e3892ba0d7e3" name="PhoneNumber" searchable="True" tokenized="False" /&gt;&lt;/search&gt;</ClassSearchSettings>
+      <ClassSearchEnabled>true</ClassSearchEnabled>
+      <ClassContactMapping>&lt;form&gt;&lt;field column="ContactEmail" mappedtofield="Email" /&gt;&lt;field column="ContactFirstName" mappedtofield="FirstName" /&gt;&lt;field column="ContactLastName" mappedtofield="LastName" /&gt;&lt;field column="ContactMobilePhone" mappedtofield="PhoneNumber" /&gt;&lt;/form&gt;</ClassContactMapping>
+      <ClassContactOverwriteEnabled>true</ClassContactOverwriteEnabled>
+      <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+      <ClassIsProductSection>false</ClassIsProductSection>
+      <ClassFormLayoutType>Html</ClassFormLayoutType>
+      <ClassVersionGUID>d42410db-a4ce-4572-a190-3564df195c5b</ClassVersionGUID>
+      <ClassDefaultObjectType>bizformitem.bizform.contactus</ClassDefaultObjectType>
+      <ClassIsForm>true</ClassIsForm>
+      <ClassCustomizedColumns></ClassCustomizedColumns>
+    </cms_class>
+    <cms_alternativeform>
+      <FormID>1947</FormID>
+      <FormDisplayName>Filter</FormDisplayName>
+      <FormName>Filter</FormName>
+      <FormClassID>5517</FormClassID>
+      <FormDefinition>&lt;form&gt;&lt;field column="ContactUsID" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FormInserted" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FormUpdated" fieldtype="CustomUserControl" ismacro="false" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="FirstName" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textfilter&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="LastName" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textfilter&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="Email" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textfilter&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="PhoneNumber" visible="false" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false" dependsonanotherfield="false" /&gt;&lt;field column="Message" visible="false" fieldtype="CustomUserControl" visibility="none" ismacro="false" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textareacontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</FormDefinition>
+      <FormGUID>5b178444-c51a-41c5-a7d8-625990275986</FormGUID>
+      <FormLastModified>2017-03-03T07:21:12.4073847-05:00</FormLastModified>
+      <FormHideNewParentFields>false</FormHideNewParentFields>
+      <FormVersionGUID>87441858-2ce6-4fdc-90c9-361bbf6e52d2</FormVersionGUID>
+      <FormCustomizedColumns></FormCustomizedColumns>
+    </cms_alternativeform>
+  </NewDataSet>
+</cms_form>

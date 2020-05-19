@@ -1,0 +1,25 @@
+﻿<cms_relationship version="12.0">
+  <NewDataSet>
+    <cms_relationship>
+      <RelationshipID>2</RelationshipID>
+      <LeftNodeID>363</LeftNodeID>
+      <RightNodeID>76</RightNodeID>
+      <RelationshipNameID>1</RelationshipNameID>
+      <RelationshipCustomData></RelationshipCustomData>
+    </cms_relationship>
+    <cms_relationship>
+      <RelationshipID>3</RelationshipID>
+      <LeftNodeID>363</LeftNodeID>
+      <RightNodeID>77</RightNodeID>
+      <RelationshipNameID>1</RelationshipNameID>
+      <RelationshipCustomData></RelationshipCustomData>
+    </cms_relationship>
+    <cms_relationship>
+      <RelationshipID>1</RelationshipID>
+      <LeftNodeID>363</LeftNodeID>
+      <RightNodeID>164</RightNodeID>
+      <RelationshipNameID>1</RelationshipNameID>
+      <RelationshipCustomData></RelationshipCustomData>
+    </cms_relationship>
+  </NewDataSet>
+</cms_relationship>

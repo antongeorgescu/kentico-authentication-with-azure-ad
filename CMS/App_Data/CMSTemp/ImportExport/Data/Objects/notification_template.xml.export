@@ -1,0 +1,30 @@
+﻿<notification_template version="12.0">
+  <NewDataSet>
+    <notification_template>
+      <TemplateID>1</TemplateID>
+      <TemplateName>NewProduct</TemplateName>
+      <TemplateDisplayName>New product</TemplateDisplayName>
+      <TemplateLastModified>2017-03-03T07:34:23.9983378-05:00</TemplateLastModified>
+      <TemplateGUID>c1b8e8a9-3dbb-46d0-a727-573dbdbefff1</TemplateGUID>
+    </notification_template>
+    <notification_templatetext>
+      <TemplateTextID>1</TemplateTextID>
+      <TemplateID>1</TemplateID>
+      <GatewayID>1</GatewayID>
+      <TemplateSubject>New product has been added!</TemplateSubject>
+      <TemplateHTMLText>Hi there,&lt;br /&gt;
+&lt;br /&gt;
+New product in&amp;nbsp;&amp;#39;{%notificationsubscription.subscriptioneventdata1|(identity)GlobalAdministrator|(hash)708fae595b03a610b315b9e34a2e831c55367308e6bd001e0c7ffee0090de861%}&amp;#39; section&amp;nbsp;has been added.&lt;br /&gt;
+&lt;br /&gt;
+This is automatically generated notification. Please do not reply to this e-mail.&lt;br /&gt;
+</TemplateHTMLText>
+      <TemplatePlainText>Hi there,
+
+New product in '{%notificationsubscription.subscriptioneventdata1|(identity)GlobalAdministrator|(hash)708fae595b03a610b315b9e34a2e831c55367308e6bd001e0c7ffee0090de861%}' section has been added.
+
+This is automatically generated notification. Please do not reply to this e-mail.</TemplatePlainText>
+      <TemplateTextGUID>9abd0692-3189-424d-9ae7-21fcf69e1cce</TemplateTextGUID>
+      <TemplateTextLastModified>2017-03-03T07:34:23.9804063-05:00</TemplateTextLastModified>
+    </notification_templatetext>
+  </NewDataSet>
+</notification_template>

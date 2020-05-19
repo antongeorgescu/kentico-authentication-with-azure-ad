@@ -1,0 +1,40 @@
+﻿<mediafile_1df22d5d-25b5-472e-a48d-3fa350d2a7f3 version="12.0">
+  <NewDataSet>
+    <media_file>
+      <FileID>1</FileID>
+      <FileName>blue</FileName>
+      <FileTitle>Logo on Blue Background</FileTitle>
+      <FileDescription>This is a sample video containing Kentico logo on blue background. The video is in Audio Video Interleave (.avi) format.</FileDescription>
+      <FileExtension>.webm</FileExtension>
+      <FileMimeType>video/webm</FileMimeType>
+      <FilePath>blue.webm</FilePath>
+      <FileSize>414478</FileSize>
+      <FileGUID>9113b307-140c-4e9c-a894-4618db7fbb33</FileGUID>
+      <FileLibraryID>1</FileLibraryID>
+      <FileSiteID>1</FileSiteID>
+      <FileCreatedByUserID>53</FileCreatedByUserID>
+      <FileCreatedWhen>2011-06-15T13:05:51-04:00</FileCreatedWhen>
+      <FileModifiedByUserID>53</FileModifiedByUserID>
+      <FileModifiedWhen>2017-12-12T10:21:22.077516-05:00</FileModifiedWhen>
+      <FileCustomData></FileCustomData>
+    </media_file>
+    <media_file>
+      <FileID>2</FileID>
+      <FileName>orange</FileName>
+      <FileTitle>Logo on Orange Background</FileTitle>
+      <FileDescription>This is a sample video displaying scrolling Kentico logo on orange background. The video is in Windows Media Video (.wmv) format.</FileDescription>
+      <FileExtension>.mp4</FileExtension>
+      <FileMimeType>video/mp4</FileMimeType>
+      <FilePath>orange.mp4</FilePath>
+      <FileSize>312182</FileSize>
+      <FileGUID>8516bb6d-5a5e-40a2-945f-015d2804f279</FileGUID>
+      <FileLibraryID>1</FileLibraryID>
+      <FileSiteID>1</FileSiteID>
+      <FileCreatedByUserID>53</FileCreatedByUserID>
+      <FileCreatedWhen>2011-06-15T13:05:57-04:00</FileCreatedWhen>
+      <FileModifiedByUserID>53</FileModifiedByUserID>
+      <FileModifiedWhen>2017-12-12T10:21:22.0974641-05:00</FileModifiedWhen>
+      <FileCustomData></FileCustomData>
+    </media_file>
+  </NewDataSet>
+</mediafile_1df22d5d-25b5-472e-a48d-3fa350d2a7f3>

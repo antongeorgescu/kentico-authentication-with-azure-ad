@@ -1,0 +1,18 @@
+﻿<notification_gateway version="12.0">
+  <NewDataSet>
+    <notification_gateway>
+      <GatewayID>1</GatewayID>
+      <GatewayName>CMS.EmailGateway</GatewayName>
+      <GatewayDisplayName>Email gateway</GatewayDisplayName>
+      <GatewayAssemblyName>CMS.Notifications.Web.UI</GatewayAssemblyName>
+      <GatewayClassName>CMS.Notifications.Web.UI.CMSEmailNotificationGateway</GatewayClassName>
+      <GatewayDescription>Default e-mail gateway.</GatewayDescription>
+      <GatewaySupportsEmail>true</GatewaySupportsEmail>
+      <GatewaySupportsPlainText>true</GatewaySupportsPlainText>
+      <GatewaySupportsHTMLText>true</GatewaySupportsHTMLText>
+      <GatewayLastModified>2017-03-03T07:19:45.4456957-05:00</GatewayLastModified>
+      <GatewayGUID>c534d31f-0f64-425b-a8de-d8b072438ba2</GatewayGUID>
+      <GatewayEnabled>true</GatewayEnabled>
+    </notification_gateway>
+  </NewDataSet>
+</notification_gateway>

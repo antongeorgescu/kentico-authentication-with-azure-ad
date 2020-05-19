@@ -1,0 +1,252 @@
+﻿<cms_customtable version="12.0">
+  <NewDataSet>
+    <cms_class>
+      <ClassID>5516</ClassID>
+      <ClassDisplayName>Sample table</ClassDisplayName>
+      <ClassName>customtable.SampleTable</ClassName>
+      <ClassUsesVersioning>false</ClassUsesVersioning>
+      <ClassIsDocumentType>false</ClassIsDocumentType>
+      <ClassIsCoupledClass>true</ClassIsCoupledClass>
+      <ClassXmlSchema>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="customtable_SampleTable"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="ItemID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" /&gt;
+              &lt;xs:element name="ItemCreatedBy" type="xs:int" minOccurs="0" /&gt;
+              &lt;xs:element name="ItemCreatedWhen" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="ItemModifiedBy" type="xs:int" minOccurs="0" /&gt;
+              &lt;xs:element name="ItemModifiedWhen" type="xs:dateTime" minOccurs="0" /&gt;
+              &lt;xs:element name="ItemOrder" type="xs:int" minOccurs="0" /&gt;
+              &lt;xs:element name="ItemText"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="400" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="ItemGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+    &lt;xs:unique name="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//customtable_SampleTable" /&gt;
+      &lt;xs:field xpath="ItemID" /&gt;
+    &lt;/xs:unique&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</ClassXmlSchema>
+      <ClassFormDefinition>&lt;form version="2"&gt;&lt;field column="ItemID" columntype="integer" guid="af6c3172-d38f-4777-ad2e-0d8559ea9c89" isPK="true" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item ID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="ItemCreatedBy" columntype="integer" guid="9630c70f-35be-4c1c-9ea6-fc43f83de467" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item created by&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="ItemCreatedWhen" columntype="datetime" guid="c75397b3-4a5d-458d-8113-ee69bad84437" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item created when&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;displayNow&gt;true&lt;/displayNow&gt;&lt;editTime&gt;false&lt;/editTime&gt;&lt;timezonetype&gt;inherit&lt;/timezonetype&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="ItemModifiedBy" columntype="integer" guid="c494c0cd-bb71-43b6-a048-74fcae1b43b0" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item modified by&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="ItemModifiedWhen" columntype="datetime" guid="a9406dc1-6ce2-4ed0-92eb-2ae0d1abbad4" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item modified when&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;displayNow&gt;true&lt;/displayNow&gt;&lt;editTime&gt;false&lt;/editTime&gt;&lt;timezonetype&gt;inherit&lt;/timezonetype&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field allowempty="true" column="ItemOrder" columntype="integer" guid="7a26d9aa-d886-4630-b05a-efff1bad9307" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item order&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemText" columnsize="400" columntype="text" guid="c15ac8bb-0048-4811-a6d1-87cc401e052d" publicfield="false" visibility="none" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item text&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;controlname&gt;TextBoxControl&lt;/controlname&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemGUID" columntype="guid" guid="17338d71-9efe-4ee6-bfca-d98636ba5e4c" publicfield="false" system="true" visibility="none"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Item GUID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</ClassFormDefinition>
+      <ClassNodeNameSource></ClassNodeNameSource>
+      <ClassTableName>customtable_SampleTable</ClassTableName>
+      <ClassPreviewPageUrl></ClassPreviewPageUrl>
+      <ClassFormLayout></ClassFormLayout>
+      <ClassShowAsSystemTable>false</ClassShowAsSystemTable>
+      <ClassUsePublishFromTo>false</ClassUsePublishFromTo>
+      <ClassShowTemplateSelection>false</ClassShowTemplateSelection>
+      <ClassIsMenuItemType>false</ClassIsMenuItemType>
+      <ClassNodeAliasSource></ClassNodeAliasSource>
+      <ClassLastModified>2017-03-03T07:32:52.202162-05:00</ClassLastModified>
+      <ClassGUID>f3ea886a-4ed5-406f-bf20-6fd0d049880c</ClassGUID>
+      <ClassCreateSKU>false</ClassCreateSKU>
+      <ClassIsProduct>false</ClassIsProduct>
+      <ClassIsCustomTable>true</ClassIsCustomTable>
+      <ClassShowColumns>ItemID;ItemCreatedBy;ItemCreatedWhen;ItemText;ItemGUID</ClassShowColumns>
+      <ClassSearchTitleColumn>ItemText</ClassSearchTitleColumn>
+      <ClassSearchContentColumn>0</ClassSearchContentColumn>
+      <ClassSearchImageColumn></ClassSearchImageColumn>
+      <ClassSearchCreationDateColumn>ItemCreatedWhen</ClassSearchCreationDateColumn>
+      <ClassSearchSettings>&lt;search&gt;&lt;item content="False" id="09f2500e-7b0d-41b6-ab54-57ac6f9d2502" name="ItemGUID" searchable="False" tokenized="False" /&gt;&lt;item content="False" id="344d0422-b428-4052-a174-18122017c6b4" name="ItemID" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="3aef0535-81b5-457e-acd4-0bb656903f45" name="ItemCreatedBy" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="5a16415d-847e-491c-8b40-ff1f963904e1" name="ItemOrder" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="75fb3059-701b-4541-a01c-4b0e49d5f1c0" name="ItemModifiedWhen" searchable="True" tokenized="False" /&gt;&lt;item content="True" id="9026c340-b95e-4a60-8b9e-c9beb21e17cc" name="ItemText" searchable="False" tokenized="True" /&gt;&lt;item content="False" id="cf52f156-82f6-418d-8555-97a29ec97881" name="ItemCreatedWhen" searchable="True" tokenized="False" /&gt;&lt;item content="False" id="dcb9685c-af13-4020-a400-368ff39f54a5" name="ItemModifiedBy" searchable="True" tokenized="False" /&gt;&lt;/search&gt;</ClassSearchSettings>
+      <ClassSearchEnabled>true</ClassSearchEnabled>
+      <ClassContactOverwriteEnabled>false</ClassContactOverwriteEnabled>
+      <ClassConnectionString>CMSConnectionString</ClassConnectionString>
+      <ClassIsProductSection>false</ClassIsProductSection>
+      <ClassFormLayoutType>html</ClassFormLayoutType>
+      <ClassVersionGUID>60d2110c-92aa-4da5-b8c3-90c61aa53455</ClassVersionGUID>
+      <ClassDefaultObjectType>customtableitem.customtable.sampletable</ClassDefaultObjectType>
+      <ClassIsForm>false</ClassIsForm>
+      <ClassCustomizedColumns></ClassCustomizedColumns>
+    </cms_class>
+    <cms_alternativeform>
+      <FormID>1946</FormID>
+      <FormDisplayName>Filter</FormDisplayName>
+      <FormName>Filter</FormName>
+      <FormClassID>5516</FormClassID>
+      <FormDefinition>&lt;form&gt;&lt;field column="ItemID" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemCreatedBy" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemCreatedWhen" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemModifiedBy" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemModifiedWhen" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;calendarcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemOrder" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textboxcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemText" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;textfilter&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemGUID" fieldtype="CustomUserControl" hasdependingfields="false" dependsonanotherfield="false"&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</FormDefinition>
+      <FormGUID>ca479db8-78cd-4f54-b9a2-107ef49199c7</FormGUID>
+      <FormLastModified>2017-03-03T07:21:11.481484-05:00</FormLastModified>
+      <FormHideNewParentFields>false</FormHideNewParentFields>
+      <FormVersionGUID>19dfb965-2d2c-4677-b23b-8524da967899</FormVersionGUID>
+    </cms_alternativeform>
+    <cms_permission>
+      <PermissionID>16016</PermissionID>
+      <PermissionDisplayName>{$general.delete$}</PermissionDisplayName>
+      <PermissionName>Delete</PermissionName>
+      <ClassID>5516</ClassID>
+      <PermissionGUID>e8b94009-4e14-41b9-9058-69c8b80939f0</PermissionGUID>
+      <PermissionLastModified>2017-03-03T07:21:32.4844201-05:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.delete$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>4</PermissionOrder>
+    </cms_permission>
+    <cms_permission>
+      <PermissionID>16017</PermissionID>
+      <PermissionDisplayName>{$permissionnames.read$}</PermissionDisplayName>
+      <PermissionName>Read</PermissionName>
+      <ClassID>5516</ClassID>
+      <PermissionGUID>66e1e133-acfc-42ee-bca5-70edbc4158bb</PermissionGUID>
+      <PermissionLastModified>2017-03-03T07:21:32.5545028-05:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.read$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>1</PermissionOrder>
+    </cms_permission>
+    <cms_permission>
+      <PermissionID>16018</PermissionID>
+      <PermissionDisplayName>{$permissionnames.create$}</PermissionDisplayName>
+      <PermissionName>Create</PermissionName>
+      <ClassID>5516</ClassID>
+      <PermissionGUID>165b5462-4f03-4a89-b260-a647814cf64e</PermissionGUID>
+      <PermissionLastModified>2017-03-03T07:21:32.4341793-05:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.create$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>3</PermissionOrder>
+    </cms_permission>
+    <cms_permission>
+      <PermissionID>16019</PermissionID>
+      <PermissionDisplayName>{$permissionnames.modify$}</PermissionDisplayName>
+      <PermissionName>Modify</PermissionName>
+      <ClassID>5516</ClassID>
+      <PermissionGUID>92799f2b-ed7b-44f5-bd69-aad8fa58e81f</PermissionGUID>
+      <PermissionLastModified>2017-03-03T07:21:32.5192465-05:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.modify$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>2</PermissionOrder>
+    </cms_permission>
+    <cms_transformation>
+      <TransformationID>4031</TransformationID>
+      <TransformationName>RSSItem</TransformationName>
+      <TransformationCode>&lt;item&gt;
+  &lt;guid isPermaLink="false"&gt;&lt;%# Eval("ItemGUID") %&gt;&lt;/guid&gt;
+  &lt;title&gt;&lt;%# EvalCDATA("ItemText") %&gt;&lt;/title&gt;
+  &lt;description&gt;&lt;%# EvalCDATA("ItemText") %&gt;&lt;/description&gt;
+  &lt;pubDate&gt;&lt;%# GetRSSDateTime(Eval("ItemCreatedWhen")) %&gt;&lt;/pubDate&gt;
+  &lt;link&gt;&lt;![CDATA[&lt;%# GetAbsoluteUrl("~/Examples/Web-parts/Custom-tables/Custom-table-repeater.aspx?itemid=" + Eval("ItemID")) %&gt;]]&gt;&lt;/link&gt;
+&lt;/item&gt;
+
+</TransformationCode>
+      <TransformationType>ascx</TransformationType>
+      <TransformationClassID>5516</TransformationClassID>
+      <TransformationVersionGUID>5a99117c-75dd-4b37-9600-b2631740cfdc</TransformationVersionGUID>
+      <TransformationGUID>5b08d0d4-f083-4aa4-9b26-8e263415008f</TransformationGUID>
+      <TransformationLastModified>2017-03-03T07:32:52.1518261-05:00</TransformationLastModified>
+      <TransformationIsHierarchical>false</TransformationIsHierarchical>
+      <TransformationHierarchicalXML></TransformationHierarchicalXML>
+      <TransformationCSS></TransformationCSS>
+    </cms_transformation>
+    <cms_transformation>
+      <TransformationID>4032</TransformationID>
+      <TransformationName>SmartSearchResultsWithImages</TransformationName>
+      <TransformationCode>&lt;div class="SmartResult"&gt;
+	&lt;img src="&lt;%# GetSearchImageUrl("/CMSModules/CMS_SmartSearch/no_image.gif",90) %&gt;" alt="" /&gt;
+
+  &lt;div class="Content"&gt;  
+	&lt;a style="font-weight: bold" href='&lt;%# GetUrl("/Examples/Web-parts/Custom-tables/Custom-table-repeater", null) %&gt;?ItemID=&lt;%# GetSearchValue("ItemID") %&gt;'&gt;
+        &lt;%# SearchHighlight(HTMLHelper.HTMLEncode(DataHelper.GetNotEmpty(Eval("Title"), "/")),"&lt;span style=\"font-weight:bold;\"&gt;","&lt;/span&gt;") %&gt;
+        &lt;/a&gt;
+  
+	&lt;%# SearchHighlight(HTMLHelper.HTMLEncode(TextHelper.LimitLength(HttpUtility.HtmlDecode(HTMLHelper.StripTags(GetSearchedContent(DataHelper.GetNotEmpty(Eval("Content"), "")), false, " ")), 280, "...")),"&lt;span style=\"background-color: #FEFF8F\"&gt;","&lt;/span&gt;") %&gt;&lt;br /&gt;
+
+                &lt;%-- Relevance --%&gt;
+                &lt;div title="&lt;%# "Relevance: " + Convert.ToInt32(ValidationHelper.GetDouble(Eval("Score"),0.0)*100)  + "%" %&gt;"
+                    style="width: 50px; border: solid 1px #aaaaaa; margin-top: 7px; margin-right: 6px;
+                    float: left; color: #0000ff; font-size: 2pt; line-height: 4px; height: 4px;"&gt;
+                    &lt;div style="&lt;%# "background-color:#a7d3a7;width:"+ Convert.ToString(Convert.ToInt32((ValidationHelper.GetDouble(Eval("Score"),0.0)/2)*100))  + "px;height:4px;line-height: 4px;"%&gt;"&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;%-- URL --%&gt;
+                &lt;span style="color: #008000"&gt;
+                    &lt;%# TextHelper.BreakLine(SearchHighlight(URLHelper.GetAbsoluteUrl(GetUrl("/Examples/Webparts/Custom-tables/Custom-table-repeater", null))+"?ItemID=" + GetSearchValue("ItemID"),"&lt;strong&gt;","&lt;/strong&gt;"),75,"&lt;br /&gt;") %&gt;
+                &lt;/span&gt;
+                &lt;%-- Creation --%&gt;
+                &lt;span style="padding-left:5px;;color: #888888; font-size: 9pt"&gt;
+                    &lt;%# GetDateTimeString(ValidationHelper.GetDateTime(Eval("Created"), DateTimeHelper.ZERO_TIME), true) %&gt;
+                &lt;/span&gt;
+   &lt;/div&gt; 
+&lt;/div&gt;
+</TransformationCode>
+      <TransformationType>ascx</TransformationType>
+      <TransformationClassID>5516</TransformationClassID>
+      <TransformationVersionGUID>16547f55-85ed-446f-b80c-29bfe0895ae5</TransformationVersionGUID>
+      <TransformationGUID>e2aed882-cf61-4f82-ac91-c79b891cb4bf</TransformationGUID>
+      <TransformationLastModified>2017-03-03T07:32:52.1981624-05:00</TransformationLastModified>
+      <TransformationIsHierarchical>false</TransformationIsHierarchical>
+      <TransformationHierarchicalXML></TransformationHierarchicalXML>
+      <TransformationCSS></TransformationCSS>
+    </cms_transformation>
+    <cms_transformation>
+      <TransformationID>4033</TransformationID>
+      <TransformationName>Default</TransformationName>
+      <TransformationCode>&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Item text:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemText") %&gt; &lt;a href='?itemid=&lt;%# Eval("ItemID") %&gt;'&gt;detail&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</TransformationCode>
+      <TransformationType>ascx</TransformationType>
+      <TransformationClassID>5516</TransformationClassID>
+      <TransformationVersionGUID>57056896-3f38-4fde-aad0-9edad60dc56d</TransformationVersionGUID>
+      <TransformationGUID>e8fff1ac-efbd-465b-9956-ef962589ded9</TransformationGUID>
+      <TransformationLastModified>2017-03-03T07:32:52.0587301-05:00</TransformationLastModified>
+      <TransformationIsHierarchical>false</TransformationIsHierarchical>
+      <TransformationHierarchicalXML></TransformationHierarchicalXML>
+      <TransformationCSS></TransformationCSS>
+    </cms_transformation>
+    <cms_transformation>
+      <TransformationID>4034</TransformationID>
+      <TransformationName>Preview</TransformationName>
+      <TransformationCode>&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;ItemCreatedBy:&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemCreatedBy") %&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ItemCreatedWhen:&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemCreatedWhen") %&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ItemModifiedBy:&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemModifiedBy") %&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ItemModifiedWhen:&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemModifiedWhen") %&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ItemOrder:&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemOrder") %&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Item text:&lt;/td&gt;
+&lt;td&gt;&lt;%# Eval("ItemText") %&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</TransformationCode>
+      <TransformationType>ascx</TransformationType>
+      <TransformationClassID>5516</TransformationClassID>
+      <TransformationVersionGUID>42a94bd8-3852-443a-8ea7-d3659ad09b66</TransformationVersionGUID>
+      <TransformationGUID>a75a3c6c-1b68-485e-8b4a-fd34819259b2</TransformationGUID>
+      <TransformationLastModified>2017-03-03T07:32:52.1137218-05:00</TransformationLastModified>
+      <TransformationIsHierarchical>false</TransformationIsHierarchical>
+      <TransformationHierarchicalXML></TransformationHierarchicalXML>
+      <TransformationCSS></TransformationCSS>
+    </cms_transformation>
+    <cms_classsite>
+      <ClassID>5516</ClassID>
+      <SiteID>1</SiteID>
+    </cms_classsite>
+  </NewDataSet>
+</cms_customtable>

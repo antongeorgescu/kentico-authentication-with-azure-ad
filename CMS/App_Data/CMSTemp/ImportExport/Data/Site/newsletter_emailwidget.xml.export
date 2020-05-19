@@ -1,0 +1,37 @@
+﻿<newsletter_emailwidget version="12.0">
+  <NewDataSet>
+    <newsletter_emailwidget>
+      <EmailWidgetID>1</EmailWidgetID>
+      <EmailWidgetGuid>3886c335-6cfe-406f-8066-d1b1509c8d54</EmailWidgetGuid>
+      <EmailWidgetLastModified>2017-12-12T10:21:23.5307971-05:00</EmailWidgetLastModified>
+      <EmailWidgetDisplayName>Text</EmailWidgetDisplayName>
+      <EmailWidgetName>Text</EmailWidgetName>
+      <EmailWidgetDescription>Text area supporting basic formatting.</EmailWidgetDescription>
+      <EmailWidgetCode>{% /*
+The Text email widget allows to enter text with basic formatting options.
+
+The Text property uses a Rich text editor with EmailWidgets toolbar set. You can use another toolbar set in order to provide different formatting capabilities.
+
+If no text is provided in the email widget properties, the code automatically returns a default text with an advise.
+This is sometimes a better option than using a default value in the property itself as that could remain unnoticed before sending
+(as default value meets the "required" criteria and is therefore not highlighted in the email builder).
+*/ @%}
+
+&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+  &lt;tr&gt;
+    &lt;td align="center" style="padding: 10px 0 15px 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding"&gt;
+      {% Text == String.Empty ? "Enter your text and add some basic formatting." : Text |(identity)GlobalAdministrator|(hash)d9e671e4c99744587bf1df150d79d7a4b78eb177860fdaff1617cd578e4a894b%}
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</EmailWidgetCode>
+      <EmailWidgetSiteID>1</EmailWidgetSiteID>
+      <EmailWidgetIconCssClass>icon-l-text</EmailWidgetIconCssClass>
+      <EmailWidgetProperties>&lt;form version="2"&gt;&lt;field column="Text" columntype="longtext" guid="7f6a0c88-99df-469b-9883-717dd8ee2239" publicfield="false" visible="true"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Content&lt;/fieldcaption&gt;&lt;fielddescription&gt;Text displayed in the text area.&lt;/fielddescription&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;HtmlAreaControl&lt;/controlname&gt;&lt;CSSStylesheet&gt;0&lt;/CSSStylesheet&gt;&lt;Dialogs_Content_Hide&gt;False&lt;/Dialogs_Content_Hide&gt;&lt;Dialogs_Content_Site&gt;##all##&lt;/Dialogs_Content_Site&gt;&lt;Dialogs_Libraries_Site&gt;##all##&lt;/Dialogs_Libraries_Site&gt;&lt;HeightUnitType&gt;PX&lt;/HeightUnitType&gt;&lt;MediaDialogConfiguration&gt;True&lt;/MediaDialogConfiguration&gt;&lt;ShowAddStampButton&gt;False&lt;/ShowAddStampButton&gt;&lt;ToolbarSet&gt;EmailWidgets&lt;/ToolbarSet&gt;&lt;Width&gt;100&lt;/Width&gt;&lt;WidthUnitType&gt;PERCENTAGE&lt;/WidthUnitType&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</EmailWidgetProperties>
+    </newsletter_emailwidget>
+    <newsletter_emailwidgettemplate>
+      <EmailWidgetTemplateID>1</EmailWidgetTemplateID>
+      <EmailWidgetID>1</EmailWidgetID>
+      <TemplateID>4</TemplateID>
+    </newsletter_emailwidgettemplate>
+  </NewDataSet>
+</newsletter_emailwidget>

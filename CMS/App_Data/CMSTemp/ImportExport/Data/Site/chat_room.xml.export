@@ -1,0 +1,38 @@
+﻿<chat_room version="12.0">
+  <NewDataSet>
+    <chat_room>
+      <ChatRoomID>1</ChatRoomID>
+      <ChatRoomName>Web_Forms_vs._MVC</ChatRoomName>
+      <ChatRoomDisplayName>Web Forms vs. MVC</ChatRoomDisplayName>
+      <ChatRoomSiteID>1</ChatRoomSiteID>
+      <ChatRoomEnabled>true</ChatRoomEnabled>
+      <ChatRoomPrivate>false</ChatRoomPrivate>
+      <ChatRoomAllowAnonym>true</ChatRoomAllowAnonym>
+      <ChatRoomCreatedWhen>2020-05-16T17:40:12.0966667-04:00</ChatRoomCreatedWhen>
+      <ChatRoomPassword></ChatRoomPassword>
+      <ChatRoomIsSupport>false</ChatRoomIsSupport>
+      <ChatRoomIsOneToOne>false</ChatRoomIsOneToOne>
+      <ChatRoomDescription>Room for general discussion about pros and cons of the two web development frameworks provided by ASP.NET</ChatRoomDescription>
+      <ChatRoomLastModification>2020-05-16T17:40:12.0966667-04:00</ChatRoomLastModification>
+      <ChatRoomPrivateStateLastModification>2020-05-16T17:40:12.0966667-04:00</ChatRoomPrivateStateLastModification>
+      <ChatRoomGUID>3535ecc3-28d2-4e63-99a5-01bcfc54a38d</ChatRoomGUID>
+    </chat_room>
+    <chat_room>
+      <ChatRoomID>2</ChatRoomID>
+      <ChatRoomName>Software_development_trends</ChatRoomName>
+      <ChatRoomDisplayName>Software development trends</ChatRoomDisplayName>
+      <ChatRoomSiteID>1</ChatRoomSiteID>
+      <ChatRoomEnabled>true</ChatRoomEnabled>
+      <ChatRoomPrivate>false</ChatRoomPrivate>
+      <ChatRoomAllowAnonym>true</ChatRoomAllowAnonym>
+      <ChatRoomCreatedWhen>2020-05-16T17:40:12.11-04:00</ChatRoomCreatedWhen>
+      <ChatRoomPassword></ChatRoomPassword>
+      <ChatRoomIsSupport>false</ChatRoomIsSupport>
+      <ChatRoomIsOneToOne>false</ChatRoomIsOneToOne>
+      <ChatRoomDescription>Discuss the latest trends in computer software development.</ChatRoomDescription>
+      <ChatRoomLastModification>2020-05-16T17:40:12.11-04:00</ChatRoomLastModification>
+      <ChatRoomPrivateStateLastModification>2020-05-16T17:40:12.11-04:00</ChatRoomPrivateStateLastModification>
+      <ChatRoomGUID>6d5db3a1-83b3-4af3-91b1-51b2ed4d1de8</ChatRoomGUID>
+    </chat_room>
+  </NewDataSet>
+</chat_room>

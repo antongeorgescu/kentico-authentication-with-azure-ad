@@ -1,0 +1,40 @@
+﻿<customtable_customtable_sampletable version="12.0">
+  <NewDataSet>
+    <customtable_sampletable>
+      <ItemID>1</ItemID>
+      <ItemCreatedBy>53</ItemCreatedBy>
+      <ItemModifiedBy>53</ItemModifiedBy>
+      <ItemModifiedWhen>2018-11-27T10:56:44.623234-05:00</ItemModifiedWhen>
+      <ItemOrder>3</ItemOrder>
+      <ItemText>Sample text 3</ItemText>
+      <ItemGUID>27983f7c-0db0-4abc-b4bd-e2fd9240f6d4</ItemGUID>
+    </customtable_sampletable>
+    <customtable_sampletable>
+      <ItemID>2</ItemID>
+      <ItemCreatedBy>53</ItemCreatedBy>
+      <ItemModifiedBy>53</ItemModifiedBy>
+      <ItemModifiedWhen>2018-11-27T10:56:44.6745988-05:00</ItemModifiedWhen>
+      <ItemOrder>1</ItemOrder>
+      <ItemText>Sample text 1</ItemText>
+      <ItemGUID>6e93220b-b66c-4894-beb2-0cad69443a64</ItemGUID>
+    </customtable_sampletable>
+    <customtable_sampletable>
+      <ItemID>3</ItemID>
+      <ItemCreatedBy>53</ItemCreatedBy>
+      <ItemModifiedBy>53</ItemModifiedBy>
+      <ItemModifiedWhen>2018-11-27T10:56:44.687707-05:00</ItemModifiedWhen>
+      <ItemOrder>2</ItemOrder>
+      <ItemText>Sample text 2</ItemText>
+      <ItemGUID>a6c47ad3-65c0-44ad-a799-3a04315be06f</ItemGUID>
+    </customtable_sampletable>
+    <customtable_sampletable>
+      <ItemID>4</ItemID>
+      <ItemCreatedBy>53</ItemCreatedBy>
+      <ItemModifiedBy>53</ItemModifiedBy>
+      <ItemModifiedWhen>2018-11-27T10:56:44.699298-05:00</ItemModifiedWhen>
+      <ItemOrder>4</ItemOrder>
+      <ItemText>Sample text 4</ItemText>
+      <ItemGUID>dc7a726a-4315-4313-880a-a98823a39ac9</ItemGUID>
+    </customtable_sampletable>
+  </NewDataSet>
+</customtable_customtable_sampletable>

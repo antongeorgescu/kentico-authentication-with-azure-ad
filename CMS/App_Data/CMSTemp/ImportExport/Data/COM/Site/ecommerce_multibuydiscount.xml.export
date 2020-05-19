@@ -1,0 +1,26 @@
+﻿<ecommerce_multibuydiscount version="12.0">
+  <NewDataSet>
+    <com_multibuydiscount>
+      <MultiBuyDiscountID>1</MultiBuyDiscountID>
+      <MultiBuyDiscountDisplayName>Microsoft Office Professional  2+1</MultiBuyDiscountDisplayName>
+      <MultiBuyDiscountName>MicrosoftOfficeProfessional2_1</MultiBuyDiscountName>
+      <MultiBuyDiscountEnabled>true</MultiBuyDiscountEnabled>
+      <MultiBuyDiscountGUID>0bfe9e71-1e6e-481f-aea6-9115df9efe00</MultiBuyDiscountGUID>
+      <MultiBuyDiscountLastModified>2017-12-12T10:21:18.403378-05:00</MultiBuyDiscountLastModified>
+      <MultiBuyDiscountSiteID>1</MultiBuyDiscountSiteID>
+      <MultiBuyDiscountApplyFurtherDiscounts>true</MultiBuyDiscountApplyFurtherDiscounts>
+      <MultiBuyDiscountMinimumBuyCount>2</MultiBuyDiscountMinimumBuyCount>
+      <MultiBuyDiscountCustomerRestriction>All</MultiBuyDiscountCustomerRestriction>
+      <MultiBuyDiscountUsesCoupons>false</MultiBuyDiscountUsesCoupons>
+      <MultiBuyDiscountValue>100.000000000</MultiBuyDiscountValue>
+      <MultiBuyDiscountIsFlat>false</MultiBuyDiscountIsFlat>
+      <MultiBuyDiscountAutoAddEnabled>true</MultiBuyDiscountAutoAddEnabled>
+      <MultiBuyDiscountPriority>1</MultiBuyDiscountPriority>
+      <MultiBuyDiscountIsProductCoupon>false</MultiBuyDiscountIsProductCoupon>
+    </com_multibuydiscount>
+    <com_multibuydiscountsku>
+      <MultiBuyDiscountID>1</MultiBuyDiscountID>
+      <SKUID>14</SKUID>
+    </com_multibuydiscountsku>
+  </NewDataSet>
+</ecommerce_multibuydiscount>

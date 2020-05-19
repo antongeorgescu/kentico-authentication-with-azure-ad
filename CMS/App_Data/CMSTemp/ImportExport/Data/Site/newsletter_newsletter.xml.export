@@ -1,0 +1,54 @@
+﻿<newsletter_newsletter version="12.0">
+  <NewDataSet>
+    <newsletter_newsletter>
+      <NewsletterID>1</NewsletterID>
+      <NewsletterDisplayName>Corporate Newsletter</NewsletterDisplayName>
+      <NewsletterName>CorporateNewsletter</NewsletterName>
+      <NewsletterSubscriptionTemplateID>1</NewsletterSubscriptionTemplateID>
+      <NewsletterUnsubscriptionTemplateID>2</NewsletterUnsubscriptionTemplateID>
+      <NewsletterSenderName>Company Name</NewsletterSenderName>
+      <NewsletterSenderEmail>sender@localhost.local</NewsletterSenderEmail>
+      <NewsletterDynamicURL></NewsletterDynamicURL>
+      <NewsletterSiteID>1</NewsletterSiteID>
+      <NewsletterGUID>6cb33bf8-8968-4cea-ad1a-41578f4486bd</NewsletterGUID>
+      <NewsletterUnsubscribeUrl>~/SpecialPages/Unsubscribe/Newsletter.aspx</NewsletterUnsubscribeUrl>
+      <NewsletterBaseUrl></NewsletterBaseUrl>
+      <NewsletterLastModified>2017-12-12T10:21:22.9821725-05:00</NewsletterLastModified>
+      <NewsletterEnableOptIn>true</NewsletterEnableOptIn>
+      <NewsletterOptInTemplateID>3</NewsletterOptInTemplateID>
+      <NewsletterSendOptInConfirmation>true</NewsletterSendOptInConfirmation>
+      <NewsletterOptInApprovalURL>~/SpecialPages/Newsletter-approval.aspx</NewsletterOptInApprovalURL>
+      <NewsletterTrackOpenEmails>true</NewsletterTrackOpenEmails>
+      <NewsletterTrackClickedLinks>true</NewsletterTrackClickedLinks>
+      <NewsletterDraftEmails></NewsletterDraftEmails>
+      <NewsletterLogActivity>true</NewsletterLogActivity>
+      <NewsletterSource>T</NewsletterSource>
+      <NewsletterType>0</NewsletterType>
+    </newsletter_newsletter>
+    <newsletter_newsletterissue>
+      <IssueID>1</IssueID>
+      <IssueSubject>New Consulting Services</IssueSubject>
+      <IssueText></IssueText>
+      <IssueUnsubscribed>0</IssueUnsubscribed>
+      <IssueNewsletterID>1</IssueNewsletterID>
+      <IssueTemplateID>4</IssueTemplateID>
+      <IssueSentEmails>0</IssueSentEmails>
+      <IssueGUID>8c3ec502-1c85-44e9-8336-d7868ef10d97</IssueGUID>
+      <IssueLastModified>2017-12-12T10:21:22.9725883-05:00</IssueLastModified>
+      <IssueSiteID>1</IssueSiteID>
+      <IssueSenderName></IssueSenderName>
+      <IssueSenderEmail></IssueSenderEmail>
+      <IssueUTMSource>corporatenewsletter_new_consulting_services</IssueUTMSource>
+      <IssueUseUTM>false</IssueUseUTM>
+      <IssueUTMCampaign>corporatenewsletter</IssueUTMCampaign>
+      <IssueDisplayName>New Consulting Services</IssueDisplayName>
+      <IssueWidgets>&lt;Configuration xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;Zones&gt;&lt;Zone&gt;&lt;Identifier&gt;zone1&lt;/Identifier&gt;&lt;Widgets&gt;&lt;Widget&gt;&lt;Identifier&gt;c2760704-3044-46a3-8755-1f53fe16bc29&lt;/Identifier&gt;&lt;TypeIdentifier&gt;3886c335-6cfe-406f-8066-d1b1509c8d54&lt;/TypeIdentifier&gt;&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;Text&lt;/Name&gt;&lt;Value&gt;We are proud to announce that the range of services we provide was extended by web development consulting. The most experienced and skilled employees from our web development department have been promoted to consultants and are here to help you with your web development projects.&amp;lt;br /&amp;gt;
+&amp;lt;br /&amp;gt;
+With extensive professional background and hundreds of successful projects in their portfolio, our consultants are here to provide valuable advice on your running or forthcoming web development projects. No matter how complicated your projects are or how tight are the upcoming deadlines, you can be sure that we will help you turn them into clear success.&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;&lt;/Widget&gt;&lt;/Widgets&gt;&lt;/Zone&gt;&lt;/Zones&gt;&lt;/Configuration&gt;</IssueWidgets>
+    </newsletter_newsletterissue>
+    <newsletter_emailtemplatenewsletter>
+      <TemplateID>4</TemplateID>
+      <NewsletterID>1</NewsletterID>
+    </newsletter_emailtemplatenewsletter>
+  </NewDataSet>
+</newsletter_newsletter>

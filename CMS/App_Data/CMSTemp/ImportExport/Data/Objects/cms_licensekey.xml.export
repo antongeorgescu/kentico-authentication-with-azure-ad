@@ -1,0 +1,20 @@
+﻿<cms_licensekey version="12.0">
+  <NewDataSet>
+    <cms_licensekey>
+      <LicenseKeyID>2</LicenseKeyID>
+      <LicenseDomain>127.0.0.1</LicenseDomain>
+      <LicenseKey>CX12-20200527-KTqcPd</LicenseKey>
+      <LicenseEdition>X</LicenseEdition>
+      <LicenseExpiration>5/27/2020</LicenseExpiration>
+      <LicenseServers>0</LicenseServers>
+    </cms_licensekey>
+    <cms_licensekey>
+      <LicenseKeyID>1</LicenseKeyID>
+      <LicenseDomain>localhost</LicenseDomain>
+      <LicenseKey>CX12-20200527-KTqcPd</LicenseKey>
+      <LicenseEdition>X</LicenseEdition>
+      <LicenseExpiration>5/27/2020</LicenseExpiration>
+      <LicenseServers>0</LicenseServers>
+    </cms_licensekey>
+  </NewDataSet>
+</cms_licensekey>
