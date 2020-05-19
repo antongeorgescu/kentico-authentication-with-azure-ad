@@ -24,7 +24,7 @@ Client ID: "5d6c194a-708b-4fd1-8e61-60bbdd47943e" <br/>
 Tenant ID: "e8422127-880e-4288-928e-4ced14423628" <br/>
 Application Key: "_\~DO93T.Udoq2gNw_2_n4JxBrG-18q~o9V" <br/>   
 Username: "azor@alviandalabs.onmicrosoft.com" <br/>
-Group: "DogsAndCats" <br/>
+Group: "Dogs" <br/>
 Password: "Dogs2020!" <br/>
 
 *** Kentico Admin: Settings *********************************** <br/>
