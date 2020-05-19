@@ -1,5 +1,6 @@
 # Kentico Authentication with Azure Active Directory
-Integrate Kentico with Azure Active Directory. This github repository is extracted initially from https://github.com/kate-orlova/azure-ad-auth-in-kentico
+Integrate Kentico with Azure Active Directory. <br/> 
+This github repository is extracted initially from https://github.com/kate-orlova/azure-ad-auth-in-kentico
 
 The following changes have been applied:
 
@@ -15,18 +16,18 @@ btnAzureSignIn.NavigateUrl = authorizationUrl.AbsoluteUri.Replace("form_post","q
 
 For testing purposes please use the following settings:
 
-*** Azure Active Directory ***********************************
+*** Azure Active Directory *********************************** <br/>
 Authority URL: "https://login.microsoftonline.com/{0}" <br/>
 Graph URL: "https://graph.microsoft.com/v1.0/{0}" <br/>
 Return URI: http://localhost/MSApp/AzureADAuthentication.axd <br/>
 Client ID: "5d6c194a-708b-4fd1-8e61-60bbdd47943e" <br/>
 Tenant ID: "e8422127-880e-4288-928e-4ced14423628" <br/>
-Application Key: "_~DO93T.Udoq2gNw_2_n4JxBrG-18q~o9V" <br/>   
+Application Key: "_\~DO93T.Udoq2gNw_2_n4JxBrG-18q~o9V" <br/>   
 Username: "azor@alviandalabs.onmicrosoft.com" <br/>
 Group: "DogsAndCats" <br/>
 Password: "Dogs2020!" <br/>
 
-*** Kentico Admin: Settings ***********************************
+*** Kentico Admin: Settings *********************************** <br/>
 Authentication Redirect Page: "/AzureADAuthentication.axd"
 
 
