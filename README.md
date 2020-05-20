@@ -25,7 +25,9 @@ Graph URL: "https://graph.microsoft.com/v1.0/{0}" <br/>
 Return URI: http://localhost/MSApp/AzureADAuthentication.axd <br/>
 Client ID: "5d6c194a-708b-4fd1-8e61-60bbdd47943e" <br/>
 Tenant ID: "e8422127-880e-4288-928e-4ced14423628" <br/>
-Application Key: "_\~DO93T.Udoq2gNw_2_n4JxBrG-18q~o9V" <br/>   
+Application Key: "_\~DO93T.Udoq2gNw_2_n4JxBrG-18q~o9V" <br/> 
+Redirect URIs: "http://localhost/CMSApp/AzureADAuthentication.axd" <br/>
+
 Username: "azor@alviandalabs.onmicrosoft.com" <br/>
 Group: "Dogs" <br/>
 Password: "Alldogs2020!" <br/>
