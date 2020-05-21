@@ -11,6 +11,7 @@ The following changes have been applied:
 * [Missing instructions] On Azure Active Directory, assign to Kentico-CMS registered application the following API Permissions: <br/>
 &nbsp;&nbsp;Azure Active Directory Graph: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Directory.ReadWrite.All <br/>
+* [Missing functionality] In AuthenticateAzureDirectoryHandler add the creation of any Azure Active Directory with "editor" privilege by default; their access to CMS features will then be controlled through the role and its permissions <br/>
 
 * [Bug fix] Update the verb from "*" to "GET" in AzureADAuthentication.axd handler in web.config (called AzureADAuthenticationHandler, in the file with the same name) <br/> <br/>
 * [Bug fix] Update the following line in Login.ascx.cs file: <br/>
