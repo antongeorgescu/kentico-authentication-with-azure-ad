@@ -59,7 +59,13 @@ namespace AzureADAuthentication.Handlers
                         FullName = adUser.DisplayName,
                         Email = string.IsNullOrWhiteSpace(adUser.Mail)
                             ? adUser.OtherMails.FirstOrDefault()
-                            : adUser.Mail
+                            : adUser.Mail,
+                        //None		    0	User has no privilege level
+                        //Editor		1	User is able to use administration interface
+                        //Admin		    2	User can use all applications except the global applications and functionality
+                        //GlobalAdmin	3	User can use all applications and functionality without any exceptions
+                        //by default any new user will have Editor privileges restricted through their role permissions
+                        SiteIndependentPrivilegeLevel = CMS.Base.UserPrivilegeLevelEnum.Editor
                     };
                     user.SetValue("AzureADUsername", adUser.UserPrincipalName);
                     user.IsExternal = true;
